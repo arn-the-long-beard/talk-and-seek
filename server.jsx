@@ -32,15 +32,7 @@ export default function serverRenderer ({ clientStats, serverStats }) {
 
     }
     const helmet = Helmet.renderStatic()
-    let store = null
-
-    checkCookie(req, result => {
-      setInvalidateUser(preload => {
-        if (preload) {
-          store = configureStore(preload)
-        } else {
-          store = configureStore()
-        }
+    let store = configureStore()
         let html = ReactDOMServer.renderToString(<MuiThemeProvider muiTheme={muiTheme}><Root store={store} Router={StaticRouter} location={req.url} context={context} /></MuiThemeProvider>)
         console.log('Server rendering')
       //  console.log(req.headers)
@@ -67,8 +59,6 @@ export default function serverRenderer ({ clientStats, serverStats }) {
               })
           }
         })
-      })
-    })
   }
 // TODO make it a middleware maybe
   function render (res, context, css, html, helmet, finalState) {

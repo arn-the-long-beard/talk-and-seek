@@ -4,11 +4,7 @@
   "description": "React-Node.js platform with google Speech API and Wikipedia",
   "main": "server.js",
   "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arn-the-long-beard/talk-and-seek.git"
+    "start": "nodemon development.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",
