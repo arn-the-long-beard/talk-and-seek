@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start_dev": "nodemon development.js",
-    "start": "development.js"
+    "start": "node development.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",
