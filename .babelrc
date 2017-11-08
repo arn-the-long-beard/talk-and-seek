@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
+  "env": {
+    "server": {
+      "plugins": [
+        [
+          "css-modules-transform", {
+          "preprocessCss": "./loaders/sass-loader.js",
+          "generateScopedName": "[hash:8]",
+          "extensions": [".scss"]
+        }
+        ]
+      ]
+    }
+  },
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
+}
