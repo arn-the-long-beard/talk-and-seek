@@ -15,38 +15,18 @@ const config = require('./webpack.development.config.js')
 const compiler = webpack(config)
 var app = express()
 const passport = require('passport')
-const configDB = require('./config')
 
 app.use(logger('dev'))
 app.use(require('cookie-parser')())
 // app.use(require('body-parser').urlencoded({ extended: true }))
 app.use(bodyParser.json()) // <--- Here
 app.use(bodyParser.urlencoded({extended: true}))
-app.use(require('express-session')({
-  secret: 'keyboard cat',
-  resave: true,
-  saveUninitialized: true,
-  secure: true
-}))
 
-app.use(passport.initialize())
-app.use(passport.session())
-require('./server/models').connect(configDB.dbUri)
 
-var User = require('./server/models/user')
-// var Account = require('./models/account');
-passport.use(User.createStrategy())
-passport.serializeUser(User.serializeUser())
-passport.deserializeUser(User.deserializeUser())
-// passport.use(new LocalStrategy(User.authenticate()))
-// pass the authenticaion checker middleware
-const authCheckMiddleware = require('./server/middleware/auth-check')
-const auth = require('./server/routes/auth')
-const apiRoutes = require('./server/routes/api')
+
+
 const publicRoutes = require('./server/routes/public')
-app.use('/api', authCheckMiddleware)
-app.use('/api', apiRoutes)
-app.use('/auth', auth)
+
 app.use('/public', publicRoutes)
 // additional routes
 
@@ -69,5 +49,3 @@ const server = http2.createServer(options, app)
   console.log('Sport In is listening on https://localhost:8080')
 })
 
-const io = require('socket.io')(server)
-require('./server/io')(io)
