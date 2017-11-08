@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { Route, Switch } from 'react-router-dom'
 import NotFound from './features/NotFoundPage'
 import ContextProvider from '../ContextProvider'
-import Home from 'features/Tests/home'
+import Home from './features/Tests/home'
 import About from './features/Tests/about'
 import Language from './features/Tests/language'
 
