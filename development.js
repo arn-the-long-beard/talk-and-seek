@@ -14,16 +14,12 @@ const bodyParser = require('body-parser')
 const config = require('./webpack.development.config.js')
 const compiler = webpack(config)
 var app = express()
-const passport = require('passport')
 
 app.use(logger('dev'))
 app.use(require('cookie-parser')())
 // app.use(require('body-parser').urlencoded({ extended: true }))
 app.use(bodyParser.json()) // <--- Here
 app.use(bodyParser.urlencoded({extended: true}))
-
-
-
 
 const publicRoutes = require('./server/routes/public')
 
@@ -44,8 +40,7 @@ const options = {
   key: fs.readFileSync('./certificats/server.key'),
   cert: fs.readFileSync('./certificats/server.crt')
 }
-const server = http2.createServer(options, app)
+http2.createServer(options, app)
 .listen(8080, '0.0.0.0', () => {
   console.log('Sport In is listening on https://localhost:8080')
 })
-
