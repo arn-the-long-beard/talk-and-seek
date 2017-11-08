@@ -65,8 +65,8 @@ const options = {
   cert: fs.readFileSync('./certificats/server.crt')
 }
 const server = http2.createServer(options, app)
-.listen(3000, '0.0.0.0', () => {
-  console.log('Sport In is listening on https://localhost:3000')
+.listen(8080, '0.0.0.0', () => {
+  console.log('Sport In is listening on https://localhost:8080')
 })
 
 const io = require('socket.io')(server)
