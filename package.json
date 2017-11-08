@@ -4,7 +4,8 @@
   "description": "React-Node.js platform with google Speech API and Wikipedia",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon development.js"
+    "start_dev": "nodemon development.js",
+    "start": "development.js"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",
