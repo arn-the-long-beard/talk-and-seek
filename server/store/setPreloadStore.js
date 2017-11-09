@@ -1,10 +1,7 @@
 
 import cookie from 'react-cookies'
 
-
-
 var cookieTool = require('cookie')
-
 
 // TODO our strategy : make a smoothy transition, fetch small data on server for little work and make most of the job on clientside to not overload the server
 /*

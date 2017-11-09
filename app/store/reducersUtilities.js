@@ -19,4 +19,3 @@ export function insertItems (array, items) {
 export function removeItemById (array, itemId) {
   return array.filter(it => it._id !== itemId)
 }
-

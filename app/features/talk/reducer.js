@@ -1,6 +1,6 @@
 import * as types from './actionType'
 
-export default function talk(state = {}, action) {
+export default function talk (state = {}, action) {
   switch (action.type) {
     case types.GET_MY_PROFILE_REQUEST:
       return {...state,
