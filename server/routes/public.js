@@ -6,7 +6,7 @@ const speech = require('@google-cloud/speech')
 const fs = require('fs')
 
 // Your Google Cloud Platform project ID
-const projectId = 'talk-and-seek-1510221784445'
+const projectId = 'talk-and-seek-1510136935941'
 
 // Creates a client
 const client = new speech.SpeechClient({

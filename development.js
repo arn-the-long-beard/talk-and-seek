@@ -1,5 +1,6 @@
 // http2 implementation start here
-const http2 = require('spdy')
+// const http2 = require('spdy')
+const http = require('http')
 const logger = require('morgan')
 const fs = require('fs')
 const express = require('express')
@@ -35,12 +36,17 @@ app.use(webpackHotMiddleware(compiler.compilers.find(compiler => compiler.name =
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(webpackHotServerMiddleware(compiler))
 // run the https2 server
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
-const options = {
-  key: fs.readFileSync('./certificats/server.key'),
-  cert: fs.readFileSync('./certificats/server.crt')
-}
-http2.createServer(options, app)
-.listen(8080, '0.0.0.0', () => {
-  console.log('Sport In is listening on https://localhost:8080')
-})
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+// const options = {
+//   key: fs.readFileSync('./certificats/server.key'),
+//   cert: fs.readFileSync('./certificats/server.crt')
+// }
+
+app.listen(8080,function() {
+  console.log('Node app is running on port', app.get('port'))
+});
+
+// http2.createServer(options, app)
+// .listen(8080, '0.0.0.0', () => {
+//   console.log('Sport In is listening on https://localhost:8080')
+// })
