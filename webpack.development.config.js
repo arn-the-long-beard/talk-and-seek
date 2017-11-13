@@ -55,7 +55,14 @@ module.exports = [
           ]
         }
       ]
-    }
+    },
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env': {
+          IS_BROWSER: 'true'
+        }
+      })
+    ]
   },
   {
     name: 'server',
@@ -120,6 +127,6 @@ module.exports = [
         }
       ]
     },
-    externals: ['formidable', 'ws']
+    externals: ['formidable', 'ws', 'isomorphic-fetch', 'fetch']
   }
 ]

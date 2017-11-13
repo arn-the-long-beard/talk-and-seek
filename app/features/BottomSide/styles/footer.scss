@@ -1,0 +1,45 @@
+.content {
+  height:80vh;
+  width: 100%; /* or whatever is required */
+  //text-align: center !important; /* ensures the image is always in the h-middle */
+  //background: url('../images/background/connected.png') no-repeat fixed center !important;
+
+}
+.container {
+  padding: 10px;
+  text-align: center;
+background: #E3F2FD;
+  margin: 0 auto;
+}
+
+.title {
+  color: #0e52a0 ;
+}
+
+
+.itemsgroupleft {
+  display: table;
+  float: left;
+}
+.itemsgroupright {
+  display: table;
+  float: right;
+}
+
+//.itemsgrouprightunder {
+//  display: inline-block;
+//  float: right;
+//}
+
+.itemsgroupleftunder {
+  display: table;
+    float: right;
+  margin-top: 100%;
+  }
+
+.itemlink {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+

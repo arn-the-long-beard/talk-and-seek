@@ -6,11 +6,11 @@ import styles from './styles/styles.scss'
 import PropTypes from 'prop-types'
 const About = () => (
   <div className={styles.container}>
-    <Helmet
-      title='About'
-    />
-    <p className={styles.text}>About, yeah nothing to say about us for now, just Ole and me working full time in the company
-    We have students helping us also</p>
+    <Helmet>
+      <title>About</title>
+      <meta name='description' content='what the platform is about' />
+    </Helmet>
+    <p className={styles.text}>This app listens to your words and seek for information in Wikipedia.</p>
   </div>
 )
 About.contextTypes = {

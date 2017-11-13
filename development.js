@@ -1,6 +1,5 @@
 // http2 implementation start here
-// const http2 = require('spdy')
-const http = require('http')
+const http2 = require('spdy')
 const logger = require('morgan')
 const fs = require('fs')
 const express = require('express')
@@ -21,7 +20,8 @@ app.use(require('cookie-parser')())
 // app.use(require('body-parser').urlencoded({ extended: true }))
 app.use(bodyParser.json()) // <--- Here
 app.use(bodyParser.urlencoded({extended: true}))
-
+const configDB = require('./config')
+require('./server/models').connect(configDB.dbUri)
 const publicRoutes = require('./server/routes/public')
 
 app.use('/public', publicRoutes)
@@ -36,17 +36,12 @@ app.use(webpackHotMiddleware(compiler.compilers.find(compiler => compiler.name =
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(webpackHotServerMiddleware(compiler))
 // run the https2 server
-//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
-// const options = {
-//   key: fs.readFileSync('./certificats/server.key'),
-//   cert: fs.readFileSync('./certificats/server.crt')
-// }
-
-app.listen(8080,function() {
-  console.log('Node app is running on port', app.get('port'))
-});
-
-// http2.createServer(options, app)
-// .listen(8080, '0.0.0.0', () => {
-//   console.log('Sport In is listening on https://localhost:8080')
-// })
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+const options = {
+  key: fs.readFileSync('./certificats/server.key'),
+  cert: fs.readFileSync('./certificats/server.crt')
+}
+http2.createServer(options, app)
+.listen(3000, '0.0.0.0', () => {
+  console.log('Sport In is listening on https://localhost:3000')
+})

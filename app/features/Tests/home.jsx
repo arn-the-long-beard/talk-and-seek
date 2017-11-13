@@ -6,10 +6,11 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './styles/styles.scss'
 const Home = () => (
   <div className={styles.container}>
-    <Helmet
-      title='Home page'
-    />
-    <p className={styles.text}>Home test</p>
+    <Helmet>
+      <title>Home Page</title>
+      <meta name='description' content='Home page of the platform' />
+    </Helmet>
+    <p className={styles.text}>This is an assignement made by Arnaud Menant for Convertelligence</p>
   </div>
 )
 Home.contextTypes = {

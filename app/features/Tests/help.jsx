@@ -6,10 +6,18 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './styles/styles.scss'
 const Help = () => (
   <div className={styles.container}>
-    <Helmet
-      title='Help page'
-    />
-    <p className={styles.text}>Help us to build this</p>
+    <Helmet>
+      <title>Help</title>
+      <meta name='description' content='page for helping users' />
+    </Helmet>
+    <div className={styles.text}>
+      <p>This app is easy :
+    </p>
+      <ul>
+        <li>Talk to the app</li>
+        <li>Seek the information</li>
+      </ul>
+    </div>
   </div>
 )
 Help.contextTypes = {

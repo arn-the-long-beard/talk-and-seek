@@ -1,0 +1,26 @@
+
+
+.content {
+  height:80vh;
+  width: 100%; /*this is required for the css isomorphism*/
+}
+
+
+.container{
+  background: rgb(26, 37, 47);
+  min-height:75vh;
+  max-height: 75vh;
+  overflow: hidden;
+  width: 100%;
+  display:block;
+  margin: 0 auto;
+}
+.text {
+  color: white;
+  font-size: 100%;
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  left: 28%;
+  z-index: 100;
+}

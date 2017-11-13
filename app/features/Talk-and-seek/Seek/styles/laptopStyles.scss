@@ -1,0 +1,43 @@
+
+content {
+  height:80vh;
+  width: 100%; /* or whatever is required */
+  //text-align: center !important; /* ensures the image is always in the h-middle */
+  //background: url('../images/background/connected.png') no-repeat fixed center !important;
+}
+
+
+.container {
+
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  background: rgb(26, 37, 47);
+  color: white;
+  padding: 15px;
+}
+
+.h1 {
+  display: inline;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.result {
+  display: inline;
+  font-size: 80%;
+  margin-bottom: 10px;
+  color: white;
+}
+.list {
+  overflow: auto;
+  height: 20vh;
+}
+
+
+.menu{
+  padding: 5px;
+  display: inline;
+}

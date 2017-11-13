@@ -6,10 +6,11 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './styles/styles.scss'
 const Language = () => (
   <div className={styles.container}>
-    <Helmet
-      title='Language'
-    />
-    <p className={styles.text}>kann du ein bischen auf deutsch sprechen ?</p>
+    <Helmet>
+      <title>Language</title>
+      <meta name='description' content='Which language is available or not' />
+    </Helmet>
+    <p className={styles.text}>For now, this app is only available in English.</p>
   </div>
 )
 Language.contextTypes = {
