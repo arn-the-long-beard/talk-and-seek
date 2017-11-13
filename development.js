@@ -35,6 +35,8 @@ app.use(webpackDevMiddleware(compiler, {
 app.use(webpackHotMiddleware(compiler.compilers.find(compiler => compiler.name === 'client')))
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(webpackHotServerMiddleware(compiler))
+
+//Todo Generate keys yourself and then use spdy
 // run the https2 server
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 const options = {
