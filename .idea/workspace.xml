@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <first_editor relative-caret-position="341">
+                <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="75" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -471,7 +471,7 @@
       <workItem from="1510310693280" duration="10707000" />
       <workItem from="1510558805780" duration="20261000" />
       <workItem from="1510580186217" duration="22759000" />
-      <workItem from="1510648725949" duration="9882000" />
+      <workItem from="1510648725949" duration="10524000" />
     </task>
     <task id="LOCAL-00001" summary="First test repos">
       <created>1510147578829</created>
@@ -599,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510657577149</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&#10;update Readme 2">
+      <created>1510664367653</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1510664367653</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109107000" />
+    <option name="totallyTimeSpent" value="109749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +680,8 @@
     <MESSAGE value="make better the loader&#10;&#10;comment http2" />
     <MESSAGE value="update package.json&#10;update Readme" />
     <MESSAGE value="&#10;update Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;update Readme" />
+    <MESSAGE value="&#10;update Readme 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;update Readme 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,8 +1170,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <first_editor relative-caret-position="341">
+            <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="75" />
             <folding />
           </first_editor>
           <second_editor />
