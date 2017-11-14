@@ -4,15 +4,17 @@ import {Card} from 'material-ui/Card'
 import MicrophoneOn from 'material-ui/svg-icons/av/mic'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from '../styles/styles.scss'
+import {blue500} from 'material-ui/styles/colors'
 import VoiceRecognition from '../lib/VoiceRecognition.js'
+import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bubble'
+
 import { FloatingActionButton } from 'material-ui'
 
 const TalkForm = ({
                       record,
                     start, onEnd, errors, onResult, result}) => (
-                      <Card >
-                        <div className={styles.container}>
-                          <h4 className={styles.h1}>Ask for information , ex : " Tell me about Norway "</h4>
+                      <section className={styles.container}>
+                          <h4 className={styles.titleSection}> Talk to me <CommunicationChatBubble color={blue500} /></h4>
                           <div>
                             {record && (
                             <VoiceRecognition
@@ -32,10 +34,11 @@ const TalkForm = ({
                               <MicrophoneOn />
                             </FloatingActionButton>
                           </div>
+                        <br/>
+                        <span className={styles.label}> I understood :
                           {result &&
-                          <div className={styles.result} >{result}</div> }
-                        </div>
-                      </Card>
+                          <i className={styles.result} >{result}</i> }</span>
+                       </section>
   )
 TalkForm.contextTypes = {
   insertCss: PropTypes.func

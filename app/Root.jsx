@@ -4,12 +4,13 @@ import { Provider } from 'react-redux'
 import { Route, Switch } from 'react-router-dom'
 import NotFound from './features/NotFoundPage'
 import ContextProvider from '../ContextProvider'
-import Home from './features/Tests/home'
-import About from './features/Tests/about'
-import Help from './features/Tests/help'
+import Home from './features/OtherPages/home'
+import About from './features/OtherPages/about'
+import Help from './features/OtherPages/help'
 import Talk from './features/Talk-and-seek/'
-import Language from './features/Tests/language'
+import Language from './features/OtherPages/language'
 import Footer from './features/BottomSide/Footer'
+import Nav from './features/TopSide/NavBar'
 import {Helmet} from 'react-helmet'
 const Root = ({ store, Router, location, context }) => (
 
@@ -23,6 +24,7 @@ const Root = ({ store, Router, location, context }) => (
             <html lang='en' />
             <html dir='ltr' />
           </Helmet>
+          <Nav />
           <main role='main'>
             <Switch>
               <Route exact path='/' component={Home} />

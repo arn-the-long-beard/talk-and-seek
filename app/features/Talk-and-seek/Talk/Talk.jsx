@@ -32,8 +32,6 @@ class  Talk extends Component {
 
   render () {
     return (
-      <div>
-
           <TalkForm
         record={this.props.talk.record}
             start={this.start}
@@ -42,8 +40,6 @@ class  Talk extends Component {
             onResult={this.onResult}
    result={this.props.talk.data}
           />
-
-      </div>
     )
   }
 }

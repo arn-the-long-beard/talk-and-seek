@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import { Route, Switch } from 'react-router-dom'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
-import styles from './Tests/styles/styles.scss'
+import styles from './OtherPages/styles/styles.scss'
 const Status = ({ code, children }) => (
   <Route render={({ staticContext }) => {
     if (staticContext) {

@@ -11,7 +11,8 @@ const ResultsList = ({results}) => (
     {results.map(function (item) {
       return (
         <ListItem disabled key={item.raw.pageid} ><div>
-          <a target='_blank' rel='noopener noreferrer' href={item.raw.fullurl} ><span className={styles.result} ><h4 className={styles.result}>{item.raw.title}</h4>-{item.raw.pagelanguage}</span></a>
+          <a target='_blank' rel='noopener noreferrer' href={item.raw.fullurl} ><span><h4 className={styles.titleResult}>{item.raw.title}</h4>-{item.raw.pagelanguage}</span></a>
+          <br />
         </div>
           <p className={styles.result}>{item.intro}</p>
         </ListItem>

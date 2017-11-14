@@ -6,7 +6,7 @@ import styles from '../styles/styles.scss'
 
 const SeekSettings = ({maxResults, onChange}) => (
   <div className={styles.menu}>
-    <span className={styles.h1}> Maximum : {maxResults} results <select onChange={onChange} value={maxResults}>
+    <span className={styles.label}> Maximum : {maxResults} results <select onChange={onChange} value={maxResults}>
       <option value={5}>Very Few</option>
       <option value={10}>Few</option>
       <option value={20}>Many</option>

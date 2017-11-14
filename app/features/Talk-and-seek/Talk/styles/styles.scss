@@ -6,18 +6,30 @@ content {
 }
 
 .container {
+  background: white;
+  width: 25vh;
+  padding: 15px;
   text-align: center;
-  background: rgb(26, 37, 47);
-padding: 15px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  z-index: 70;
+  content: "";
+  height: fit-content;
+  display: inline-block;
+  overflow: hidden;
 }
 
-.h1 {
-  display: block;
-  margin-bottom: 10px;
-  color: white;
+.titleSection {
+  display: inline-block;
+  color: #015367;
 }
 .result {
   display: block;
   margin-bottom: 10px;
-  color: white;
+  color: #015367;
+}
+.label {
+  display: inline-block;
+  color: #015367;
 }

@@ -20,11 +20,7 @@ app.use(require('cookie-parser')())
 // app.use(require('body-parser').urlencoded({ extended: true }))
 app.use(bodyParser.json()) // <--- Here
 app.use(bodyParser.urlencoded({extended: true}))
-const configDB = require('./config')
-require('./server/models').connect(configDB.dbUri)
-const publicRoutes = require('./server/routes/public')
 
-app.use('/public', publicRoutes)
 // additional routes
 
 // Isomorphism part
@@ -36,7 +32,7 @@ app.use(webpackHotMiddleware(compiler.compilers.find(compiler => compiler.name =
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(webpackHotServerMiddleware(compiler))
 
-//Todo Generate keys yourself and then use spdy
+// Todo Generate keys yourself and then use spdy
 // run the https2 server
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 const options = {

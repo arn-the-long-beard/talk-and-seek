@@ -7,11 +7,21 @@
 
 
 .container{
-  background: rgb(26, 37, 47);
+
+  background: white;
   min-height:75vh;
   max-height: 75vh;
   overflow: hidden;
   width: 100%;
   display:block;
   margin: 0 auto;
+}
+.container::after {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container::after {
+  content: "";
+  height: 100%;
 }

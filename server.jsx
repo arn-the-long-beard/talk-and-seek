@@ -8,16 +8,12 @@ import Template from './template'
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
-// import Auth from './app/Auth.js'
-// import injectTapEventPlugin from 'react-tap-event-plugin'
-// import {refreshUser} from './app/actions/actions'
 import configureStore from './app/store/configureStore'
 import Root from './app/Root'
-import {checkCookie, setInvalidateUser} from './server/store/setPreloadStore'
+
 import {promisesCollecteur} from './server/store/promisesCollecteur'
 import initReactFastclick from 'react-fastclick'
 initReactFastclick()
-// injectTapEventPlugin()
 export default function serverRenderer ({ clientStats, serverStats }) {
   return (req, res, next) => {
     // cookie.plugToRequest(req, res)
@@ -44,6 +40,7 @@ export default function serverRenderer ({ clientStats, serverStats }) {
         console.log('there is no promise')
         render(res, context, css, html, helmet, finalState)
       } else {
+        // It was in case I try to reload the state by server sendering ( F5) but not time to implement for the assignement
         console.log('there are few promises to solve')
         Promise.all(promises)
               .then(() => {

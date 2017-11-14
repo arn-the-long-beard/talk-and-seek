@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 import React from 'react'
-import MediaQuery from 'react-responsive'
+
 import PropTypes from 'prop-types'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './styles/styles.scss'
@@ -17,6 +17,7 @@ const Help = () => (
         <li>Talk to the app</li>
         <li>Seek the information</li>
       </ul>
+      <p><b> Unfortunately, Speech API is only working with Google Chrome</b></p>
     </div>
   </div>
 )

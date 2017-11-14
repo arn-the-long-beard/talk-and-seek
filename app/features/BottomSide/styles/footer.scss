@@ -5,41 +5,20 @@
   //background: url('../images/background/connected.png') no-repeat fixed center !important;
 
 }
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
 .container {
-  padding: 10px;
-  text-align: center;
-background: #E3F2FD;
-  margin: 0 auto;
+  background-color :#015367 ;
 }
-
 .title {
-  color: #0e52a0 ;
-}
-
-
-.itemsgroupleft {
-  display: table;
-  float: left;
-}
-.itemsgroupright {
-  display: table;
-  float: right;
-}
-
-//.itemsgrouprightunder {
-//  display: inline-block;
-//  float: right;
-//}
-
-.itemsgroupleftunder {
-  display: table;
-    float: right;
-  margin-top: 100%;
-  }
-
-.itemlink {
-  color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px;
+  color: #60B9CE ;
 }
 

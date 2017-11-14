@@ -1,4 +1,3 @@
-
 content {
   height:80vh;
   width: 100%; /* or whatever is required */
@@ -8,32 +7,45 @@ content {
 
 
 .container {
-
-}
-
-.title {
-  text-align: center;
-  margin-top: 50px;
-  background: rgb(26, 37, 47);
-  color: white;
+  background: white;
+  width: 55vh;
   padding: 15px;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  z-index: 70;
+  content: "";
+  display: inline-block;
+  overflow: auto;
 }
-
-.h1 {
+.titleSection {
   display: inline;
   margin-bottom: 10px;
-  color: white;
+  color: #015367;
+}
+
+.label {
+  color: #015367;
+}
+
+.titleResult{
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+  display: inline;
 }
 
 .result {
   display: inline;
-  font-size: 80%;
+  font-size: 70%;
   margin-bottom: 10px;
-  color: white;
+  color: #015367;
 }
 .list {
-  overflow: auto;
-  height: 20vh;
+  overflow: auto !important;
+  height: 35vh;
+  color: #015367;
 }
 
 

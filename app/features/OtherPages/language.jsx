@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet'
 import React from 'react'
-import MediaQuery from 'react-responsive'
 import PropTypes from 'prop-types'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './styles/styles.scss'
