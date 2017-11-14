@@ -1,6 +1,7 @@
 # README #
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 
+ :warning: Works only on Chrome
 
 Speak to the App and find information
 
@@ -11,6 +12,9 @@ Thank you very much for your checklist [thedaviddias](https://github.com/thedavi
 ### What is this repository for? ###
 
 * Quick summary
+
+
+Talk to Speech API ------ Works only on Chrome
 
 * Version
 1.0.0
