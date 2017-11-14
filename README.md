@@ -37,9 +37,11 @@ It is working on http because of the wikiJs. Usually I run everything on https.
     
     npm start
     
-//Talk about the modification for wikipedia Api
+* Comments  
 
-You can change development.js and the page.js to have full https
+You can change development.js and the page.js inside wikisj to have full https
+
+The store have information about the server in case of server request and test on local network
 
 * Configuration
 
@@ -47,6 +49,7 @@ You can change development.js and the page.js to have full https
 
     npm start
 or
+    
     npm start_dev
 
 the package.json is a mess because I took my core platform I developped the 4 last month and I did not have time to clean it
