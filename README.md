@@ -9,20 +9,14 @@ Thank you very much for your previous work [grvcoelho](https://github.com/grvcoe
 
 Thank you very much for your checklist [thedaviddias](https://github.com/thedaviddias/Front-End-Checklist)
 
-### What is this repository for? ###
-
-* Quick summary
-
+### Intropduction ###
 
 Talk to Speech API ------ Works only on Chrome
 
 * Version
 1.0.0
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
-
-* Summary of set up
+### How to use ###
 
 Download
 
@@ -37,15 +31,21 @@ Install Npm Packages
     npm install 
     
 Start the server
-It is working on http because of the wikiJs. Usually I run everything on https.
-    
+  
     npm start
     
 * Comments  
 
+It is working on http because of the wikiJs. 
+
+Usually I run everything on https by using http2/spdy.
+
 You can change development.js and the page.js inside wikisj to have full https
 
-The store have information about the server in case of server request and test on local network
+The redux store have information about the server in case of server request and test on local network and isomorphism rendering
+
+There is also a Promise promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
+
 
 * Configuration
 
@@ -65,12 +65,9 @@ I didn't not have the time to provide a production version
 ##### For the production ( ie for the upload on an hosting server)
 * Dependencies
 * Database configuration
-
-
 * How to run tests
 ( not set yet)
     npm test
-
 * Deployment instructions
 
 ### Contribution guidelines ###
@@ -86,7 +83,9 @@ I didn't not have the time to provide a production version
 * Other guidelines
 
 
-### Who do I talk to? ###
+### Community ###
 
 * Arnaud Menant alias the "Security Freak" from SportIn : arn.menant@gmail.com
 * Other community or team contact
+
+Feel free to ask questions and help about how to run an isomorphic React-Redux app like this
