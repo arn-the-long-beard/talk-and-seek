@@ -46,11 +46,11 @@ const options = {
 }
 http2.createServer(options, app)
 .listen(3000, '0.0.0.0', () => {
-  console.log('Sport In is listening on https://localhost:3000')
+  console.log('talk-and-seek is listening on https://localhost:3000')
 })
 */
 
 http.createServer(app)
   .listen(3000, '0.0.0.0', () => {
-    console.log('Sport In is listening on https://localhost:3000')
+    console.log('talk-and-seek is listening on https://localhost:3000')
   })
