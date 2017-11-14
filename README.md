@@ -77,6 +77,7 @@ I didn't not have the time to provide a production version
 
 * Writing tests
 * Code review
+
 Need to implement error handler in case of using non compatible web browser
 
 * Other guidelines
