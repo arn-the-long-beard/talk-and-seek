@@ -1,5 +1,7 @@
 // http2 implementation start here
-const http2 = require('spdy')
+// const http2 = require('spdy')
+
+const http = require('http')
 const logger = require('morgan')
 const fs = require('fs')
 const express = require('express')
@@ -32,8 +34,11 @@ app.use(webpackHotMiddleware(compiler.compilers.find(compiler => compiler.name =
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(webpackHotServerMiddleware(compiler))
 
+/*
+
 // Todo Generate keys yourself and then use spdy
 // run the https2 server
+
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 const options = {
   key: fs.readFileSync('./certificats/server.key'),
@@ -43,3 +48,9 @@ http2.createServer(options, app)
 .listen(3000, '0.0.0.0', () => {
   console.log('Sport In is listening on https://localhost:3000')
 })
+*/
+
+http.createServer(app)
+  .listen(3000, '0.0.0.0', () => {
+    console.log('Sport In is listening on https://localhost:3000')
+  })

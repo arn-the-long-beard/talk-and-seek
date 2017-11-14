@@ -5,40 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/features/TopSide/NavBar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/features/TopSide/styles/nav.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/features/Platform/styles/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/ReadMyVoice.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routes/public.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routes/resources/audio.raw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routes/resources/output.flac" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/store/setPreloadStore.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/about.jsx" afterPath="$PROJECT_DIR$/app/features/OtherPages/about.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/help.jsx" afterPath="$PROJECT_DIR$/app/features/OtherPages/help.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/home.jsx" afterPath="$PROJECT_DIR$/app/features/OtherPages/home.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/language.jsx" afterPath="$PROJECT_DIR$/app/features/OtherPages/language.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/styles/desktopStyles.scss" afterPath="$PROJECT_DIR$/app/features/OtherPages/styles/desktopStyles.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/styles/laptopStyles.scss" afterPath="$PROJECT_DIR$/app/features/OtherPages/styles/laptopStyles.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/features/Tests/styles/styles.scss" afterPath="$PROJECT_DIR$/app/features/OtherPages/styles/styles.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Ads/Banner.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Ads/Description.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Ads/Logo.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Avatars/BigAvatar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Avatars/MediumAvatar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Avatars/SmallAvatar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Buttons/IconButton.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Cards/BigCard.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Cards/MediumCard.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Cards/SmallCard.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Edit/Autocomplete.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Frames/LeftFrame.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Frames/MiddleFrame.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Frames/RightFrame.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Labels/SimpleLabel.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Lists/ItemsList.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Menus/IconBarMenu.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Rating/Stars.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Texts/SmallText.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Texts/Title.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/store/reducersUtilities.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Root.jsx" afterPath="$PROJECT_DIR$/app/Root.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/BottomSide/Footer.jsx" afterPath="$PROJECT_DIR$/app/features/BottomSide/Footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/BottomSide/styles/footer.scss" afterPath="$PROJECT_DIR$/app/features/BottomSide/styles/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/NotFoundPage.jsx" afterPath="$PROJECT_DIR$/app/features/NotFoundPage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Platform/Technologies/styles/desktopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Platform/Technologies/styles/desktopStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Platform/Technologies/styles/laptopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Platform/Technologies/styles/laptopStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/laptopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/laptopStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/Talk.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/Talk.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/styles/styles.scss" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/styles/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/styles/laptopStyles.scss" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/styles/laptopStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/loader.scss" afterPath="$PROJECT_DIR$/app/styles/loader.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development.js" afterPath="$PROJECT_DIR$/development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.jsx" afterPath="$PROJECT_DIR$/server.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,24 +48,8 @@
       <file leaf-file-name="SeekSection.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <marker date="1510655038471" expanded="true" signature="587:1101" ph="&lt;section/&gt;" />
-                <marker date="1510655038471" expanded="true" signature="819:941" ph="&lt;div/&gt;" />
-                <marker date="1510655038471" expanded="true" signature="1131:1297" ph="{&quot;results&quot;: PropTypes.array.isRequired...}" />
-                <marker date="1510655038471" expanded="true" signature="1329:1360" ph="{&quot;insertCss&quot;: PropTypes.func...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TalkForm.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -78,65 +57,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="language.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/OtherPages/language.jsx">
+      <file leaf-file-name="miniLoader.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Spinner/miniLoader.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/OtherPages/home.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="help.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/features/OtherPages/help.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
-                <marker date="1510655402897" expanded="true" signature="539:548" ph="&lt;ul/&gt;" />
+                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Talk.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/Talk.jsx">
+      <file leaf-file-name="loader.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/loader.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeekSettingsMenu.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx">
+      <file leaf-file-name="Loader.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Spinner/Loader.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="laptopStyles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/laptopStyles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,24 +96,61 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeekSettingsMenu.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktopStyles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktopStyles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotFoundPage.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/features/NotFoundPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1510655038471" expanded="true" signature="310:759" ph="&lt;List/&gt;" />
-                <marker date="1510655038471" expanded="true" signature="375:747" ph="{...}" />
-                <marker date="1510655038471" expanded="true" signature="400:733" ph="&lt;ListItem/&gt;" />
-                <marker date="1510655038471" expanded="true" signature="442:657" ph="&lt;div/&gt;" />
-                <marker date="1510655038471" expanded="true" signature="786:827" ph="{&quot;results&quot;: PropTypes.array.isRequired...}" />
-                <marker date="1510655038471" expanded="true" signature="856:887" ph="{&quot;insertCss&quot;: PropTypes.func...}" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/styles/styles.scss">
+      <file leaf-file-name="development.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/development.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="496">
+              <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/lib/VoiceRecognition.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/actionTypes.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/reducer.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/DataText.jsx" />
@@ -213,7 +199,6 @@
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/reducer.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/Seek.jsx" />
-        <option value="$PROJECT_DIR$/app/styles/loader.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/api.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/styles.scss" />
         <option value="$PROJECT_DIR$/app/features/Tests/styles/laptopStyles.scss" />
@@ -233,7 +218,6 @@
         <option value="$PROJECT_DIR$/app/features/TopSide/NavBar.jsx" />
         <option value="$PROJECT_DIR$/app/features/OtherPages/language.jsx" />
         <option value="$PROJECT_DIR$/server/routes/public.js" />
-        <option value="$PROJECT_DIR$/development.js" />
         <option value="$PROJECT_DIR$/server.jsx" />
         <option value="$PROJECT_DIR$/app/features/BottomSide/Footer.jsx" />
         <option value="$PROJECT_DIR$/app/features/Platform/Technologies/styles/laptopStyles.scss" />
@@ -243,15 +227,18 @@
         <option value="$PROJECT_DIR$/app/features/BottomSide/styles/footer.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/styles/laptopStyles.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss" />
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/laptopStyles.scss" />
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx" />
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/Talk.jsx" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/styles/styles.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" />
         <option value="$PROJECT_DIR$/app/features/OtherPages/help.jsx" />
+        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx" />
+        <option value="$PROJECT_DIR$/app/features/NotFoundPage.jsx" />
+        <option value="$PROJECT_DIR$/development.js" />
+        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss" />
+        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
+        <option value="$PROJECT_DIR$/app/styles/loader.scss" />
       </list>
     </option>
   </component>
@@ -300,6 +287,74 @@
             <path>
               <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
               <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Spinner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Talk-and-seek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="Seek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="Seek" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="Seek" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talk-and-seek" type="462c0819:PsiDirectoryNode" />
+              <item name="certificats" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="talk-and-seek" type="b2602c69:ProjectViewProjectNode" />
@@ -508,7 +563,7 @@
       <workItem from="1510310693280" duration="10707000" />
       <workItem from="1510558805780" duration="20261000" />
       <workItem from="1510580186217" duration="22759000" />
-      <workItem from="1510648725949" duration="6687000" />
+      <workItem from="1510648725949" duration="7935000" />
     </task>
     <task id="LOCAL-00001" summary="First test repos">
       <created>1510147578829</created>
@@ -608,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510616079090</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Impprove the font end">
+      <created>1510655549859</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1510655549859</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105912000" />
+    <option name="totallyTimeSpent" value="107160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,12 +693,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32207206" sideWeight="0.58858055" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32207206" sideWeight="0.5917823" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28762007" sideWeight="0.30066445" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32207206" sideWeight="0.41141942" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18243243" sideWeight="0.3724653" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32207206" sideWeight="0.40821773" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18243243" sideWeight="0.36926362" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28762007" sideWeight="0.6993356" order="0" side_tool="false" content_ui="combo" />
@@ -678,7 +740,8 @@
     <MESSAGE value="fix yaml" />
     <MESSAGE value="fix more stuff" />
     <MESSAGE value="remove useless files and add todo info" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless files and add todo info" />
+    <MESSAGE value="Impprove the font end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impprove the font end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,53 +791,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/Seek.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1510615385186" expanded="true" signature="789:906" ph="&lt;SeekResultsList/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -872,16 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/NotFoundPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/features/TopSide/styles/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -959,17 +965,9 @@
         <state relative-caret-position="330">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#370#425#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#370#425#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,22 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/laptopStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/ReadMyVoice.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,56 +1065,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <marker date="1510655038471" expanded="true" signature="310:759" ph="&lt;List/&gt;" />
-            <marker date="1510655038471" expanded="true" signature="375:747" ph="{...}" />
-            <marker date="1510655038471" expanded="true" signature="400:733" ph="&lt;ListItem/&gt;" />
-            <marker date="1510655038471" expanded="true" signature="442:657" ph="&lt;div/&gt;" />
-            <marker date="1510655038471" expanded="true" signature="786:827" ph="{&quot;results&quot;: PropTypes.array.isRequired...}" />
-            <marker date="1510655038471" expanded="true" signature="856:887" ph="{&quot;insertCss&quot;: PropTypes.func...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/laptopStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1510655038471" expanded="true" signature="587:1101" ph="&lt;section/&gt;" />
-            <marker date="1510655038471" expanded="true" signature="819:941" ph="&lt;div/&gt;" />
-            <marker date="1510655038471" expanded="true" signature="1131:1297" ph="{&quot;results&quot;: PropTypes.array.isRequired...}" />
-            <marker date="1510655038471" expanded="true" signature="1329:1360" ph="{&quot;insertCss&quot;: PropTypes.func...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,12 +1117,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/features/OtherPages/help.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="false" />
             <marker date="1510655402897" expanded="true" signature="539:548" ph="&lt;ul/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/laptopStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/styles/desktopStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSettingsMenu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/reducersUtilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/NotFoundPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Spinner/Loader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Spinner/miniLoader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/loader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

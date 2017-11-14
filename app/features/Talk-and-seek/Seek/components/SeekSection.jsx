@@ -12,7 +12,8 @@ import {blue500} from 'material-ui/styles/colors'
 const ResultsSection = ({results, update, message, isRequesting, maxResults, onChange}) => (
 
   <section className={styles.container}>
-    <div><h4 className={styles.titleSection}> Seek into Wikikpedia <Search color={blue500} /></h4></div>
+    <div><h4 className={styles.titleSection}> Seek into Wikikpedia <Search color={blue500} /> {isRequesting &&
+    <MiniLoader />}</h4></div>
     <SeekSettingsMenu maxResults={maxResults} onChange={onChange} />
     {update &&
     <div className={styles.label}>
@@ -20,8 +21,6 @@ const ResultsSection = ({results, update, message, isRequesting, maxResults, onC
     {' '}
     </div>}
     { message && <div className={styles.label}> {message} </div> }
-    {isRequesting &&
-    <MiniLoader />}
     <ResultsList results={results} />
   </section>)
 

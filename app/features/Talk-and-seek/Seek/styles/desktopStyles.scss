@@ -50,7 +50,16 @@ content {
 }
 
 
-.menu{
-  padding: 5px;
-  display: inline;
+
+.menu {
+  background: #60B9CE linear-gradient(#60B9CE, #04819E);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
 }
+
+.menu:hover,
+.menu:focus {
+  background: #04819E linear-gradient(#04819E, #206876);
+
+}
+

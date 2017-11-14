@@ -5,8 +5,8 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from '../styles/styles.scss'
 
 const SeekSettings = ({maxResults, onChange}) => (
-  <div className={styles.menu}>
-    <span className={styles.label}> Maximum : {maxResults} results <select onChange={onChange} value={maxResults}>
+  <div >
+    <span className={styles.label}> Maximum : {maxResults} results <select className={styles.menu} onChange={onChange} value={maxResults}>
       <option value={5}>Very Few</option>
       <option value={10}>Few</option>
       <option value={20}>Many</option>

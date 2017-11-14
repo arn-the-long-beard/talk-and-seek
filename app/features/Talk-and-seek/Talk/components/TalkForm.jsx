@@ -14,9 +14,9 @@ const TalkForm = ({
                       record,
                     start, onEnd, errors, onResult, result}) => (
                       <section className={styles.container}>
-                          <h4 className={styles.titleSection}> Talk to me <CommunicationChatBubble color={blue500} /></h4>
-                          <div>
-                            {record && (
+                        <h4 className={styles.titleSection}> Talk to me <CommunicationChatBubble color={blue500} /></h4>
+                        <div>
+                          {record && (
                             <VoiceRecognition
                               onStart={start}
                               onEnd={onEnd}
@@ -25,20 +25,20 @@ const TalkForm = ({
                               lang='en-US'
                                 />
                               )}
-                          </div>
-                          {errors.summary && <p className='error-message'>{errors.summary}</p>}
-                          <div>
-                            <FloatingActionButton
-                              disabled={record}
-                              onClick={start}>
-                              <MicrophoneOn />
-                            </FloatingActionButton>
-                          </div>
-                        <br/>
+                        </div>
+                        {errors.summary && <p className='error-message'>{errors.summary}</p>}
+                        <div>
+                          <FloatingActionButton
+                            disabled={record}
+                            onClick={start}>
+                            <MicrophoneOn />
+                          </FloatingActionButton>
+                        </div>
+                        <br />
                         <span className={styles.label}> I understood :
                           {result &&
                           <i className={styles.result} >{result}</i> }</span>
-                       </section>
+                      </section>
   )
 TalkForm.contextTypes = {
   insertCss: PropTypes.func
