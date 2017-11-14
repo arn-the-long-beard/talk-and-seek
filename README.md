@@ -78,7 +78,10 @@ I didn't not have the time to provide a production version
 * Writing tests
 * Code review
 
-Need to implement error handler in case of using non compatible web browser
+### TODO ###
+ => Need to implement error handler in case of using non compatible web browser, for now the page just crash
+ 
+ => Need to clean the package.json ; there are many node_modules the platform does not need
 
 * Other guidelines
 
