@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start_dev": "nodemon development.js",
-    "start": "node development.js"
+    "start": "node development.js",
+    "build" :"NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors"
+    "start_prod" : "node production.js"
   },
   "dependencies": {
     "@google-cloud/speech": "0.11.0",

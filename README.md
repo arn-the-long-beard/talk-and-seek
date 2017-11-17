@@ -62,6 +62,16 @@ the package.json is a mess because I took my core platform I developped the 4 la
 
 >2 Prod config :
 
+For building for production :
+    
+    npm build
+
+For running the production server :
+
+    npm start_prod
+    
+The production version does not work. There is something wrong with talk.jsx and the binding     
+
 I didn't not have the time to provide a production version
     
 ##### For the production ( ie for the upload on an hosting server)
@@ -72,6 +82,15 @@ I didn't not have the time to provide a production version
     npm test
 * Deployment instructions
 
+
+For building platform for production :
+    
+    npm build
+
+For running the production server :
+
+    npm start_prod
+
 ### Contribution guidelines ###
 
 * Writing tests
@@ -81,6 +100,8 @@ I didn't not have the time to provide a production version
  => Need to implement error handler in case of using non compatible web browser, for now the page just crash
  
  => Need to clean the package.json ; there are many node_modules the platform does not need
+ 
+ => Need to fix the production version. 
 
 * Other guidelines
 
