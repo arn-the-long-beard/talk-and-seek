@@ -44,7 +44,7 @@ Usually I run everything on https by using http2/spdy.
 
 You can change development.js and the page.js inside wikisj to have full https
 
-The redux store have information about the server in case of server request and test on local network and isomorphism rendering
+The redux store has information about the server in case of test on local network 
 
 There is also a Promise promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
 
