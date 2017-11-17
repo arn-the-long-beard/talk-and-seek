@@ -23,24 +23,3 @@ export const promisesCollecteur = (finalState, next) => {
   return next(promises)
 }
 
-/*
-
-export const promisesCollecteur = (finalState, next) => {
-  console.log('---------------- Store state-------------')
-  console.log(finalState)
-  var promises = []
-  var keys = Object.keys(finalState)
-
-  keys.forEach(function (key) {
-    console.log(finalState[key])
-
-    if (finalState[key].isFetching && finalState[key].promise) {
-      console.log('something is fetching and there is a promise to add to the list')
-      promises.push(finalState[key].promise)
-    }
-  })
-  console.log(' There are ' + promises.length + '  promise(s)')
-  return next(promises)
-}
-
- */
