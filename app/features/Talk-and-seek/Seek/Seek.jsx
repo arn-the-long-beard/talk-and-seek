@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import PropTypes from 'prop-types'
-
+import autobind from 'autobind-decorator'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import * as actions from './actions'
@@ -12,7 +12,6 @@ class Seek extends Component {
    */
   constructor (props, context) {
     super(props, context)
-    this.onChange=this.onChange.bind(this)
   }
 
   componentWillReceiveProps (nextProps) {
@@ -23,7 +22,8 @@ class Seek extends Component {
     this.props.actions.checkIfNeedToAskWikipedia()
   }
 
-  onChange = (event) => {
+  @autobind
+  onChange  (event)  {
     event.preventDefault()
     this.props.actions.updateMaxResults(event.target.value)
   }

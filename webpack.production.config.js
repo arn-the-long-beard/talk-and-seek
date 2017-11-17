@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const StatsPlugin = require('stats-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-const Uglify = require('uglifyjs-webpack-plugin')
+const Uglify = require('uglifyes-webpack-plugin')
 module.exports = [
   {
     name: 'client',

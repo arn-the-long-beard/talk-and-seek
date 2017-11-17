@@ -46,6 +46,6 @@ TalkForm.contextTypes = {
 TalkForm.propTypes = {
   onResult: PropTypes.func.isRequired,
   onEnd: PropTypes.func.isRequired,
-  start: PropTypes.func.isRequired
+  start: PropTypes.func.isRequired,
 }
 export default withStyles(styles)(TalkForm)

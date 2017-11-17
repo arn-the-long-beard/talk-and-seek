@@ -9,11 +9,11 @@
   "scripts": {
     "start_dev": "nodemon development.js",
     "start": "node development.js",
-    "build" :"NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
-    "start_prod" : "node production.js"
+    "build": "NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
+    "start_prod": "node production.js"
   },
   "dependencies": {
-    "@google-cloud/speech": "0.11.0",
+    "autobind-decorator": "2.1.0",
     "autoprefixer": "7.1.2",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
@@ -85,6 +85,8 @@
     "stringifystream": "1.0.5",
     "style-loader": "^0.18.2",
     "superagent": "3.5.2",
+    "uglify-js-es6": "2.8.9",
+    "uglifyes-webpack-plugin": "0.4.3",
     "uglifyjs-webpack-plugin": "1.0.0-beta.1",
     "url-loader": "0.5.9",
     "utf-8-validate": "3.0.3",
