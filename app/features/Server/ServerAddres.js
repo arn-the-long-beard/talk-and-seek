@@ -45,7 +45,7 @@ class ServerAddress {
     return token
   }
   static getServerUrl () {
-    return 'https://' + ServerAddress.getAddress()
+    return 'http://' + ServerAddress.getAddress()
   }
 }
 

@@ -28,15 +28,5 @@ const store = configureStore(preloadedState)
 ReactDOM.hydrate(<MuiThemeProvider muiTheme={getMuiTheme()}>
   <Root Router={BrowserRouter} context={context} store={store} />
 </MuiThemeProvider>, document.getElementById('root'))
-  /*
-ReactDOM.render((
-  <MuiThemeProvider muiTheme={getMuiTheme()}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </MuiThemeProvider>
-), document.getElementById('root'))
-*/
-// add these console.log lines
 console.log('after')
 console.log(root.innerHTML)

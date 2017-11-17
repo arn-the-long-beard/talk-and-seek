@@ -26,6 +26,7 @@
     "babel-preset-stage-1": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
     "babel-register": "6.26.0",
+    "babel-runtime": "6.26.0",
     "bcrypt": "1.0.2",
     "bluebird": "3.5.0",
     "body-parser": "1.17.2",
@@ -59,24 +60,16 @@
     "nodemon": "1.11.0",
     "npm": "5.5.1",
     "optimize-css-assets-webpack-plugin": "2.0.0",
-    "passport": "0.3.2",
-    "passport-local": "1.0.0",
-    "passport-local-mongoose": "4.0.0",
-    "passport-local-mongoose-email": "0.1.3",
-    "passport-oauth2": "1.4.0",
     "postcss-smart-import": "0.7.5",
     "prop-types": "15.5.10",
     "react": "16.1.0-beta",
     "react-bootstrap": "0.31.2",
     "react-cookies": "0.1.0",
     "react-dom": "16.0.0",
-    "react-facebook-login": "3.6.2",
     "react-fastclick": "3.0.2",
     "react-helmet": "5.1.3",
     "react-redux": "5.0.6",
-    "react-resolver": "3.1.0",
     "react-router-dom": "4.2.2",
-    "react-voice-components": "1.0.0",
     "redux": "3.7.1",
     "redux-devtools-extension": "2.13.2",
     "redux-logger": "3.0.6",
@@ -90,6 +83,7 @@
     "stringifystream": "1.0.5",
     "style-loader": "^0.18.2",
     "superagent": "3.5.2",
+    "uglifyjs-webpack-plugin": "1.0.0-beta.1",
     "url-loader": "0.5.9",
     "utf-8-validate": "3.0.3",
     "validator": "7.2.0",
@@ -115,5 +109,9 @@
     "type": "git",
     "url": "git+https://github.com/arn-the-long-beard/talk-and-seek.git"
   },
-  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme"
+  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme",
+  "devDependencies": {
+    "babel-plugin-syntax-class-properties": "6.13.0",
+    "babel-plugin-transform-runtime": "6.23.0"
+  }
 }

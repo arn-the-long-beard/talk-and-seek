@@ -36,7 +36,8 @@ class NavBar extends Component {
 }
 
 NavBar.contextTypes = {
-  insertCss: PropTypes.func
+  insertCss: PropTypes.func,
+  router: PropTypes.object.isRequired
 }
 
 export default withStyles(styles)(NavBar)

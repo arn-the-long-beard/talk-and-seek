@@ -1,9 +1,8 @@
-
-import React from 'react'
-import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import { Helmet } from 'react-helmet'
-import styles from './styles/styles.scss'
+import React from 'react'
 import PropTypes from 'prop-types'
+import withStyles from 'isomorphic-style-loader/lib/withStyles'
+import styles from './styles/styles.scss'
 const About = () => (
   <div className={styles.container}>
     <Helmet>

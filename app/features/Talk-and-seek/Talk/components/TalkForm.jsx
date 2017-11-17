@@ -8,7 +8,7 @@ import {blue500} from 'material-ui/styles/colors'
 import VoiceRecognition from '../lib/VoiceRecognition.js'
 import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bubble'
 
-import { FloatingActionButton } from 'material-ui'
+import {FloatingActionButton} from 'material-ui'
 
 const TalkForm = ({
                       record,
@@ -42,5 +42,10 @@ const TalkForm = ({
   )
 TalkForm.contextTypes = {
   insertCss: PropTypes.func
+}
+TalkForm.propTypes = {
+  onResult: PropTypes.func.isRequired,
+  onEnd: PropTypes.func.isRequired,
+  start: PropTypes.func.isRequired
 }
 export default withStyles(styles)(TalkForm)

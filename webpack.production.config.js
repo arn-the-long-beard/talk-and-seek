@@ -1,9 +1,13 @@
 const path = require('path')
+// const dist = path.join(__dirname, 'dist')
 const webpack = require('webpack')
+// const WebpackCleanupPlugin = require('webpack-cleanup-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const StatsPlugin = require('stats-webpack-plugin')
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const Uglify = require('uglifyjs-webpack-plugin')
 module.exports = [
   {
-
     name: 'client',
     target: 'web',
     entry: './client.jsx',
@@ -28,7 +32,7 @@ module.exports = [
           ]
         },
         {
-          test: /\.(scss|css)$/,
+          test: /\.scss$/,
           use: [
             {
               loader: 'style-loader'
@@ -38,7 +42,7 @@ module.exports = [
               options: {
                 modules: true,
                 importLoaders: 1,
-                localIdentName: '[name]__[local]___[hash:base64:5]',
+                localIdentName: '[hash:base64:10]',
                 sourceMap: true
               }
             },
@@ -46,8 +50,7 @@ module.exports = [
               loader: 'sass-loader'
             }
           ]
-        },
-        {
+        }, {
           test: /\.(jpe?g|png|gif|svg)$/i,
           use: [
             'url-loader?limit=10000',
@@ -55,7 +58,25 @@ module.exports = [
           ]
         }
       ]
-    }
+    },
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: '"production"'
+        }
+      }),
+      new Uglify(),
+      // new webpack.optimize.UglifyJsPlugin({
+      //   compress: {
+      //     warnings: false,
+      //     screw_ie8: true,
+      //     drop_console: true,
+      //     drop_debugger: true
+      //   }
+      // }),
+      new webpack.optimize.OccurrenceOrderPlugin(),
+      new webpack.IgnorePlugin(/utf-8-validate|bufferutil/)
+    ]
   },
   {
     name: 'server',
@@ -68,15 +89,6 @@ module.exports = [
       publicPath: '/static/'
     },
     devtool: 'source-map',
-    plugins: [ new webpack.DefinePlugin({ 'global.GENTLY': false }), new webpack.IgnorePlugin(/utf-8-validate|bufferutil/) ],
-
-   /* plugins: [
-      new webpack.DefinePlugin({
-        'process.env': {
-          'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-        }
-      })
-    ], */
     resolve: {
       extensions: ['.js', '.jsx']
     },
@@ -120,6 +132,21 @@ module.exports = [
         }
       ]
     },
+    plugins: [
+      new ExtractTextPlugin({
+        filename: 'styles.css',
+        allChunks: true
+      }),
+      new OptimizeCssAssetsPlugin({
+        cssProcessorOptions: { discardComments: { removeAll: true } }
+      }),
+      new StatsPlugin('stats.json', {
+        chunkModules: true,
+        modules: true,
+        chunks: true,
+        exclude: [/node_modules[\\\/]react/]
+      })
+    ],
     externals: ['formidable', 'ws', 'isomorphic-fetch', 'fetch']
   }
 ]

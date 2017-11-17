@@ -22,4 +22,3 @@ export const promisesCollecteur = (finalState, next) => {
   console.log(' There are ' + promises.length + '  promise(s)')
   return next(promises)
 }
-
