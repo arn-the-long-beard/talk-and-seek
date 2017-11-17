@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/auth-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/group-permission-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/io-auth-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/io-group-permission-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/io-room-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/store-auth-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/middleware/user-permission-check.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development.js" afterPath="$PROJECT_DIR$/development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/store/promisesCollecteur.js" afterPath="$PROJECT_DIR$/server/store/promisesCollecteur.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="development.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/development.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -110,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promisesCollecteur.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="promisesCollecteur.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/store/promisesCollecteur.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -211,11 +203,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/features/OtherPages/home.jsx" />
-        <option value="$PROJECT_DIR$/development.js" />
         <option value="$PROJECT_DIR$/app/features/Platform/Technologies/styles/desktopStyles.scss" />
         <option value="$PROJECT_DIR$/app/features/Platform/Technologies/styles/laptopStyles.scss" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/styles/desktopStyles.scss" />
         <option value="$PROJECT_DIR$/server/store/promisesCollecteur.js" />
+        <option value="$PROJECT_DIR$/development.js" />
       </list>
     </option>
   </component>
@@ -563,7 +555,7 @@
       <workItem from="1510739845694" duration="3854000" />
       <workItem from="1510753551809" duration="2496000" />
       <workItem from="1510825778080" duration="3883000" />
-      <workItem from="1510914972695" duration="723000" />
+      <workItem from="1510914972695" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="First test repos">
       <created>1510147578829</created>
@@ -740,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510686317774</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="continue cleaning code. Remove my auth checking middlewares.">
+      <created>1510917904140</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1510917904140</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126118000" />
+    <option name="totallyTimeSpent" value="126350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +820,8 @@
     <MESSAGE value="First clean for the package.json&#10;Update of the readme" />
     <MESSAGE value="additional cleaning + re add the missing nodes-modules" />
     <MESSAGE value="correct the console.log when the server starts" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct the console.log when the server starts" />
+    <MESSAGE value="continue cleaning code. Remove my auth checking middlewares." />
+    <option name="LAST_COMMIT_MESSAGE" value="continue cleaning code. Remove my auth checking middlewares." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/middleware/group-permission-check.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1200,6 +1192,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding />
         </state>
       </provider>
