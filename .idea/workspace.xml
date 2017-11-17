@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -558,7 +557,7 @@
       <workItem from="1510739845694" duration="3854000" />
       <workItem from="1510753551809" duration="2496000" />
       <workItem from="1510825778080" duration="3883000" />
-      <workItem from="1510914972695" duration="2109000" />
+      <workItem from="1510914972695" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="First test repos">
       <created>1510147578829</created>
@@ -749,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510918146985</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update the badges">
+      <created>1510926233703</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1510926233703</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127504000" />
+    <option name="totallyTimeSpent" value="127548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,7 +813,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First test repos" />
     <MESSAGE value="Cleaning , now it is working" />
     <MESSAGE value="put on 8080" />
     <MESSAGE value="add the yaml" />
@@ -832,7 +837,8 @@
     <MESSAGE value="correct the console.log when the server starts" />
     <MESSAGE value="continue cleaning code. Remove my auth checking middlewares." />
     <MESSAGE value="re update the port to 3000" />
-    <option name="LAST_COMMIT_MESSAGE" value="re update the port to 3000" />
+    <MESSAGE value="update the badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the badges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
