@@ -51,7 +51,7 @@ export const getData = (data) => {
 
 export const validateAndExtractFailed = (data) => {
   return {
-    type: types.VALIDATE_DATA_FAILEDD,
+    type: types.VALIDATE_DATA_FAILED,
     err: data.err,
     message: data.message
   }
@@ -86,4 +86,44 @@ export function validateData (result) {
   }
 }
 
-// } dispatch(askWikipediaRequest(data))
+/**
+ *
+ *  Check the webBrowser
+ *
+ */
+
+export const checkCompatibilityFailed = (json) => {
+  return {
+    type: types.CHECK_COMPATIBILITY_FAILED,
+    err: json.err,
+    message: json.message
+  }
+}
+export const checkCompatibilityRequest = () => {
+  return {
+    type: types.CHECK_COMPATIBILITY_REQUEST
+
+  }
+}
+export const checkCompatibilitySuccess = (json) => {
+  return {
+    type: types.CHECK_COMPATIBILITY_SUCCESS,
+    compatibility: json.success
+  }
+}
+
+export function checkCompatibility () {
+  return function (dispatch, getState) {
+    // We could imagine some validation and detection api here
+    dispatch(checkCompatibilityRequest())
+    return Api.checkWebBrowser().then(response => {
+      if (response.success) {
+        dispatch(checkCompatibilitySuccess(response))
+      } else {
+        dispatch(checkCompatibilityFailed(response))
+      }
+    }).catch(error => {
+      dispatch(checkCompatibilityFailed(error))
+    })
+  }
+}

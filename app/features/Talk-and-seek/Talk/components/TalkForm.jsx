@@ -6,16 +6,14 @@ import styles from '../styles/styles.scss'
 import {blue500} from 'material-ui/styles/colors'
 import VoiceRecognition from '../lib/VoiceRecognition.js'
 import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bubble'
-
 import FloatingActionButton from 'material-ui/FloatingActionButton'
-
 const TalkForm = ({
                       record,
-                    start, onEnd, errors, onResult, result}) => (
+                    start, onEnd, errors, onResult, result, compatibility}) => (
                       <section className={styles.container}>
                         <h4 className={styles.titleSection}> Talk to me <CommunicationChatBubble color={blue500} /></h4>
                         <div>
-                          {record && (
+                          {record && compatibility && (
                             <VoiceRecognition
                               onStart={start}
                               onEnd={onEnd}
@@ -25,10 +23,11 @@ const TalkForm = ({
                                 />
                               )}
                         </div>
-                        {errors.summary && <p className='error-message'>{errors.summary}</p>}
+                        {errors && <p className={styles.errors}>{errors}</p>}
+                        {!compatibility && <a href='https://www.google.com/chrome/browser/desktop/index.html'> Google Chrome</a>}
                         <div>
                           <FloatingActionButton
-                            disabled={record}
+                            disabled={record || !compatibility}
                             onClick={start}>
                             <MicrophoneOn />
                           </FloatingActionButton>

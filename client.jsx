@@ -12,8 +12,6 @@ import configureStore from './app/store/configureStore'
 import Root from './app/Root'
 // add these console.log lines
 initReactFastclick()
-console.log('before')
-console.log(root.innerHTML)
 
 const context = {
   insertCss: () => {
@@ -28,5 +26,3 @@ const store = configureStore(preloadedState)
 ReactDOM.hydrate(<MuiThemeProvider muiTheme={getMuiTheme()}>
   <Root Router={BrowserRouter} context={context} store={store} />
 </MuiThemeProvider>, document.getElementById('root'))
-console.log('after')
-console.log(root.innerHTML)

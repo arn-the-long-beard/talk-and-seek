@@ -95,7 +95,7 @@ For running the production server :
 * Code review
 
 ### TODO ###
- => Need to implement error handler in case of using non compatible web browser, for now the page just crash
+ => Need to implement error handler in case of using non compatible web browser, for now the page just crash :white_check_mark:
  
  => Need to clean the package.json ; there are many node_modules the platform does not need
  

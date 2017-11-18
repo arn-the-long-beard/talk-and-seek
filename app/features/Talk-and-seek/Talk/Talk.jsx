@@ -28,6 +28,11 @@ class Talk extends Component {
     e.preventDefault()
     this.props.actions.startRecording()
   }
+
+  componentDidMount () {
+    this.props.actions.checkCompatibility()
+  }
+
   render () {
     return (
       <TalkForm
@@ -37,6 +42,7 @@ class Talk extends Component {
         errors={this.props.talk.errors}
         onResult={this.onResult}
         result={this.props.talk.data}
+        compatibility={this.props.talk.isCompatible}
           />
     )
   }

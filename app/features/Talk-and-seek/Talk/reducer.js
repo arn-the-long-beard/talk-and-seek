@@ -1,10 +1,11 @@
 import * as types from './actionTypes'
 
-export default function talkReducer (state = { errors: {},
+export default function talkReducer (state = { errors: null,
   record: false,
   hasStopped: false,
   isRecording: false,
-  isReady: false}, action) {
+  isReady: false,
+  isCompatible: false}, action) {
   switch (action.type) {
     // case types.RENDER_MICROPHONE:
     //   return {...state,
@@ -44,6 +45,26 @@ export default function talkReducer (state = { errors: {},
         isValide: false,
         errors: action.err
       }
+    case types.CHECK_COMPATIBILITY_FAILED:
+      return {...state,
+        isCompatible: false,
+        message: action.message,
+        errors: action.err
+      }
+    case types.CHECK_COMPATIBILITY_SUCCESS:
+      return {...state,
+        isRequesting: false,
+        message: null,
+        errors: null,
+        isCompatible: action.compatibility
+      }
+
+    case types.CHECK_COMPATIBILITY_REQUEST:
+      return {...state,
+        isRequesting: true,
+        isCompatible: false
+      }
+
     default:
       return state
   }
