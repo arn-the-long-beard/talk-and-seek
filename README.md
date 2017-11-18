@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://travis-ci.org/arn-the-long-beard/talk-and-seek.svg?branch=master)](https://travis-ci.org/arn-the-long-beard/talk-and-seek)
 [![Heroku](http://heroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat)](https://mysterious-atoll-69963.herokuapp.com/talk)
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/dominictarr/stability)
 
  :warning: Works only on Chrome
 
