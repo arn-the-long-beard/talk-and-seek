@@ -12,7 +12,7 @@
     "build": "NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "postinstall": "npm run build",
     "start_prod": "node production.js",
-    "test":"./node_modules/jshint/bin/jshint production.js"
+    "test": "./node_modules/jshint/bin/jshint production.js"
   },
   "dependencies": {
     "autobind-decorator": "2.1.0",
@@ -65,7 +65,6 @@
     "sass-loader": "6.0.6",
     "serve-favicon": "2.4.3",
     "spdy": "3.4.7",
-    "standard": "10.0.2",
     "standard-loader": "6.0.1",
     "stats-webpack-plugin": "0.6.1",
     "stringifystream": "1.0.5",
@@ -118,6 +117,7 @@
   },
   "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme",
   "devDependencies": {
-    "jshint": "2.9.5"
+    "jshint": "2.9.5",
+    "standard": "10.0.2"
   }
 }

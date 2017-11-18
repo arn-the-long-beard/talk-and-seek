@@ -1,5 +1,4 @@
 // const http2 = require('spdy')
-const http = require('http')
 const express = require('express')
 const path = require('path')
 const app = express()
@@ -8,7 +7,7 @@ const ClientStatsPath = path.join(__dirname, './static/stats.json')
 const ServerRendererPath = path.join(__dirname, './static/server.js')
 const ServerRenderer = require(ServerRendererPath).default
 const Stats = require(ClientStatsPath)
-var favicon = require('serve-favicon')
+const favicon = require('serve-favicon')
 app.use(logger('dev'))
 // add the part for socket.io
 app.use(require('cookie-parser')())
