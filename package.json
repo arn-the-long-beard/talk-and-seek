@@ -69,25 +69,7 @@
     "stringifystream": "1.0.5",
     "style-loader": "^0.18.2",
     "superagent": "3.5.2",
-    "wikijs": "4.4.0"
-  },
-  "keywords": [
-    "Speech",
-    "wikipedia",
-    "react",
-    "node.js"
-  ],
-  "author": "“arn-the-long-beard” <arn.menant@gmail.com> (https://github.com/arn-the-long-beard)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/arn-the-long-beard/talk-and-seek/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arn-the-long-beard/talk-and-seek.git"
-  },
-  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme",
-  "devDependencies": {
+    "wikijs": "4.4.0",
     "babel-cli": "6.24.1",
     "extract-text-webpack-plugin": "3.0.0",
     "babel-core": "6.25.0",
@@ -116,5 +98,21 @@
     "url-loader": "0.5.9",
     "utf-8-validate": "3.0.3",
     "validator": "7.2.0"
-  }
+  },
+  "keywords": [
+    "Speech",
+    "wikipedia",
+    "react",
+    "node.js"
+  ],
+  "author": "“arn-the-long-beard” <arn.menant@gmail.com> (https://github.com/arn-the-long-beard)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arn-the-long-beard/talk-and-seek/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arn-the-long-beard/talk-and-seek.git"
+  },
+  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme"
 }

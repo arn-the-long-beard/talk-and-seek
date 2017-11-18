@@ -46,7 +46,7 @@ You can change development.js and the page.js inside wikisj to have full https
 
 The redux store has information about the server in case of test on local network 
 
-There is also a Promise promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
+There is also a promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
 
 
 * Configuration
@@ -56,23 +56,19 @@ There is also a Promise promisesCollecteur to handle Async redux actions for inj
     npm start
 or
     
-    npm start_dev
+    npm run start_dev
 
-the package.json is a mess because I took my core platform I developped the 4 last month and I did not have time to clean it
 
 >2 Prod config :
 
 For building for production :
     
-    npm build
+    npm run build
 
 For running the production server :
 
-    npm start_prod
+    npm run start_prod
     
-The production version does not work. After few hours on the problem, I understood that there is something wrong with ui-material. I will try later to move to the beta and see if it fixe the issue
-
-I didn't not have the time to provide a production version
     
 ##### For the production ( ie for the upload on an hosting server)
 * Dependencies
@@ -101,7 +97,6 @@ For running the production server :
  
  => Need to clean the package.json ; there are many node_modules the platform does not need
  
- => Need to fix the production version. 
 
 * Other guidelines
 
