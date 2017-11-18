@@ -113,7 +113,7 @@ For running the production server :
 
 ### Community ###
 
-* Arnaud Menant alias the "Security Freak" from SportIn : arn.menant@gmail.com
+* arn-the-long-beard
 * Other community or team contact
 
 Thank you very much for your previous work [grvcoelho](https://github.com/grvcoelho/react-voice-components)
