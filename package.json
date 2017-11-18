@@ -11,7 +11,8 @@
     "start": "node development.js",
     "build": "NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "postinstall": "npm run build",
-    "start_prod": "node production.js"
+    "start_prod": "node production.js",
+    "test":"./node_modules/jshint/bin/jshint production.js"
   },
   "dependencies": {
     "autobind-decorator": "2.1.0",
@@ -115,5 +116,8 @@
     "type": "git",
     "url": "git+https://github.com/arn-the-long-beard/talk-and-seek.git"
   },
-  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme"
+  "homepage": "https://github.com/arn-the-long-beard/talk-and-seek#readme",
+  "devDependencies": {
+    "jshint": "2.9.5"
+  }
 }
