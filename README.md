@@ -5,11 +5,11 @@
  
  :warning: Works only on Chrome
 
-Speak to the App and find information
+Speak to the App and find information  :microphone: [Here](https://mysterious-atoll-69963.herokuapp.com/talk)
 
-Thank you very much for your previous work [grvcoelho](https://github.com/grvcoelho/react-voice-components)
-
-Thank you very much for your checklist [thedaviddias](https://github.com/thedaviddias/Front-End-Checklist)
+ 
+The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) 
+ 
 
 ### Intropduction ###
 
@@ -97,6 +97,9 @@ For running the production server :
  
  => Need to clean the package.json ; there are many node_modules the platform does not need
  
+ => Need to modify the wikijs for requesting https
+ 
+ => Change to Https after fixing wikijs
 
 * Other guidelines
 
@@ -105,5 +108,9 @@ For running the production server :
 
 * Arnaud Menant alias the "Security Freak" from SportIn : arn.menant@gmail.com
 * Other community or team contact
+
+Thank you very much for your previous work [grvcoelho](https://github.com/grvcoelho/react-voice-components)
+
+Thank you very much for your checklist [thedaviddias](https://github.com/thedaviddias/Front-End-Checklist)
 
 Feel free to ask questions and help about how to run an isomorphic React-Redux app like this

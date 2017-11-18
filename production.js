@@ -17,7 +17,7 @@ app.use(require('body-parser').urlencoded({ extended: true }))
 app.use('/static', express.static(path.join(__dirname, './static')))
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(ServerRenderer(Stats))
-app.listen(3000)
+app.listen(process.env.PORT || 5000)
 
 // TODO buy a certified certificat for the ssl
 
