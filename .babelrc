@@ -23,6 +23,7 @@
     "transform-decorators-legacy",
     "transform-react-jsx",
     "syntax-class-properties",
+    "transform-class-properties",
     "transform-runtime"
   ]
 }
