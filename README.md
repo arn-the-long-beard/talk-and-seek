@@ -70,7 +70,7 @@ For running the production server :
 
     npm start_prod
     
-The production version does not work. There is something wrong with talk.jsx and the binding     
+The production version does not work. After few hours on the problem, I understood that there is something wrong with ui-material. I will try later to move to the beta and see if it fixe the issue
 
 I didn't not have the time to provide a production version
     

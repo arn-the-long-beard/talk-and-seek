@@ -9,7 +9,7 @@ const ServerRendererPath = path.join(__dirname, './static/server.js')
 const ServerRenderer = require(ServerRendererPath).default
 const Stats = require(ClientStatsPath)
 var favicon = require('serve-favicon')
-
+app.use(logger('dev'))
 // add the part for socket.io
 app.use(require('cookie-parser')())
 app.use(require('body-parser').urlencoded({ extended: true }))

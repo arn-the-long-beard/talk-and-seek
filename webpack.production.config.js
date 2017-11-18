@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const StatsPlugin = require('stats-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-const Uglify = require('uglifyes-webpack-plugin')
+const Uglify = require('uglifyjs-webpack-plugin')
 module.exports = [
   {
     name: 'client',
@@ -65,7 +65,9 @@ module.exports = [
           NODE_ENV: '"production"'
         }
       }),
-      new Uglify(),
+      new Uglify({
+        sourceMap: true
+      }),
       // new webpack.optimize.UglifyJsPlugin({
       //   compress: {
       //     warnings: false,

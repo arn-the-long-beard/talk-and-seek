@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Card} from 'material-ui/Card'
 import MicrophoneOn from 'material-ui/svg-icons/av/mic'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from '../styles/styles.scss'
@@ -46,6 +45,6 @@ TalkForm.contextTypes = {
 TalkForm.propTypes = {
   onResult: PropTypes.func.isRequired,
   onEnd: PropTypes.func.isRequired,
-  start: PropTypes.func.isRequired,
+  start: PropTypes.func.isRequired
 }
 export default withStyles(styles)(TalkForm)
