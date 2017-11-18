@@ -23,8 +23,12 @@ const TalkForm = ({
                                 />
                               )}
                         </div>
-                        {errors && <p className={styles.errors}>{errors}</p>}
-                        {!compatibility && <a href='https://www.google.com/chrome/browser/desktop/index.html'> Google Chrome</a>}
+                        {errors && !compatibility &&
+                          <div>
+                            <p className={styles.errors}>{errors}</p>
+                            <a href='https://www.google.com/chrome/browser/desktop/index.html'> Google Chrome</a>
+                          </div>}
+
                         <div>
                           <FloatingActionButton
                             disabled={record || !compatibility}
