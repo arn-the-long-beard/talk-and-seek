@@ -7,7 +7,7 @@ import {blue500} from 'material-ui/styles/colors'
 import VoiceRecognition from '../lib/VoiceRecognition.js'
 import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bubble'
 
-import {FloatingActionButton} from 'material-ui'
+import FloatingActionButton from 'material-ui/FloatingActionButton'
 
 const TalkForm = ({
                       record,

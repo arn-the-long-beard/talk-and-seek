@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from '../styles/styles.scss'
-import { List, ListItem } from 'material-ui'
+import { List, ListItem } from 'material-ui/List'
 
 // Todo when using external link, lost the reduxe state
 const ResultsList = ({results}) => (
