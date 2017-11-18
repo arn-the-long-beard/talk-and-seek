@@ -4,7 +4,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://travis-ci.org/arn-the-long-beard/talk-and-seek.svg?branch=master)](https://travis-ci.org/arn-the-long-beard/talk-and-seek)
 [![Heroku](http://heroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat)](https://mysterious-atoll-69963.herokuapp.com/talk)
- 
+![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+
  :warning: Works only on Chrome
 
 Speak to the App and find information  :microphone: [Here](https://mysterious-atoll-69963.herokuapp.com/talk)
@@ -12,6 +13,10 @@ Speak to the App and find information  :microphone: [Here](https://mysterious-at
  
 The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) 
  
+
+## Stability
+
+Stable: Expect patches, possible features additions.
 
 ### Intropduction ###
 
