@@ -23,12 +23,6 @@ const TalkForm = ({
                                 />
                               )}
                         </div>
-                        {errors && !compatibility &&
-                          <div>
-                            <p className={styles.errors}>{errors}</p>
-                            <a href='https://www.google.com/chrome/browser/desktop/index.html'> Google Chrome</a>
-                          </div>}
-
                         <div>
                           <FloatingActionButton
                             disabled={record || !compatibility}
@@ -40,6 +34,11 @@ const TalkForm = ({
                         <span className={styles.label}> I understood :
                           {result &&
                           <i className={styles.result} >{result}</i> }</span>
+                        {errors && !compatibility &&
+                        <div>
+                          <p className={styles.errors}>{errors}</p>
+                          <a href='https://www.google.com/chrome/browser/desktop/index.html'> Google Chrome</a>
+                        </div>}
                       </section>
   )
 TalkForm.contextTypes = {

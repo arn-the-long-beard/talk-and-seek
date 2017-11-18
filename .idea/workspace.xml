@@ -75,8 +75,8 @@
       <file leaf-file-name="TalkForm.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="213">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -226,8 +226,8 @@
         <option value="$PROJECT_DIR$/client.jsx" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/lib/VoiceRecognition.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/api.js" />
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" />
       </list>
     </option>
   </component>
@@ -544,14 +544,7 @@
       <workItem from="1510753551809" duration="2496000" />
       <workItem from="1510825778080" duration="3883000" />
       <workItem from="1510914972695" duration="22215000" />
-      <workItem from="1511004475149" duration="18834000" />
-    </task>
-    <task id="LOCAL-00005" summary="add the yaml">
-      <created>1510150696959</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1510150696959</updated>
+      <workItem from="1511004475149" duration="20089000" />
     </task>
     <task id="LOCAL-00006" summary="update the start">
       <created>1510153002036</created>
@@ -889,11 +882,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511026742529</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="++ better state transition in the talk form">
+      <created>1511027090812</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1511027090812</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166444000" />
+    <option name="totallyTimeSpent" value="167699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -947,7 +947,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="correct the console.log when the server starts" />
     <MESSAGE value="continue cleaning code. Remove my auth checking middlewares." />
     <MESSAGE value="re update the port to 3000" />
     <MESSAGE value="update the badges" />
@@ -972,7 +971,8 @@
     <MESSAGE value="++ small clean" />
     <MESSAGE value="++ add stable badge" />
     <MESSAGE value="++ add link inside the badge" />
-    <option name="LAST_COMMIT_MESSAGE" value="++ add link inside the badge" />
+    <MESSAGE value="++ better state transition in the talk form" />
+    <option name="LAST_COMMIT_MESSAGE" value="++ better state transition in the talk form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4016,8 +4016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="213">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
