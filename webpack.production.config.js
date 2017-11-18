@@ -146,7 +146,7 @@ module.exports = [
         chunkModules: true,
         modules: true,
         chunks: true,
-        exclude: [/node_modules[\\\/]react/]
+        exclude: [/node_modules[\\]react/]
       })
     ],
     externals: ['formidable', 'ws', 'isomorphic-fetch', 'fetch']

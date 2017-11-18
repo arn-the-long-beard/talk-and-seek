@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import styles from './OtherPages/styles/styles.scss'
 const Status = ({ code, children }) => (

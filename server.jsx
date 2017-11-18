@@ -34,7 +34,7 @@ export default function serverRenderer ({ clientStats, serverStats }) {
       //  console.log(req.headers)
     let finalState = store.getState()
 // TODO make it a middleware maybe
-    finalState.host = {server: req.headers.host }
+    finalState.host = { server: req.headers.host }
     promisesCollecteur(finalState, promises => {
       if (promises.length === 0) {
         console.log('there is no promise')
