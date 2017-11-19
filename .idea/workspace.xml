@@ -7,6 +7,7 @@
     <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeekSection.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeekSection.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -92,16 +93,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
+              <first_editor relative-caret-position="234">
+                <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
                 <folding>
-                  <marker date="1511116645955" expanded="true" signature="1791:6261" ph="{...}" />
-                  <marker date="1511116645955" expanded="true" signature="4705:4818" ph="{...}" />
-                  <marker date="1511116645955" expanded="true" signature="4902:4984" ph="{...}" />
+                  <marker date="1511117067577" expanded="true" signature="1791:6106" ph="{...}" />
+                  <marker date="1511117067577" expanded="true" signature="4705:4818" ph="{...}" />
+                  <marker date="1511117067577" expanded="true" signature="4902:4984" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -225,8 +226,8 @@
         <option value="$PROJECT_DIR$/development.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/reducer.js" />
         <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actions.js" />
-        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
       </list>
     </option>
   </component>
@@ -567,14 +568,7 @@
       <workItem from="1511040723818" duration="108000" />
       <workItem from="1511040995509" duration="236000" />
       <workItem from="1511047550832" duration="6000" />
-      <workItem from="1511095650776" duration="17989000" />
-    </task>
-    <task id="LOCAL-00016" summary="make better the loader&#10;&#10;comment http2">
-      <created>1510656784384</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1510656784384</updated>
+      <workItem from="1511095650776" duration="18714000" />
     </task>
     <task id="LOCAL-00017" summary="update package.json&#10;update Readme">
       <created>1510657333235</created>
@@ -912,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511116425607</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Add node about the GMT stuff">
+      <created>1511116677950</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1511116677950</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189223000" />
+    <option name="totallyTimeSpent" value="189948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,7 +971,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="React 16.1.0-beta =&gt; React 16.0.0" />
     <MESSAGE value="move all dependencies from dev_dependencies for heroku deployment&#10;&#10;Update readme for npm commands" />
     <MESSAGE value="add the Procfile to start the production server for Heroku" />
     <MESSAGE value="update the port &#10;update the readme" />
@@ -995,7 +995,8 @@
     <MESSAGE value="rebuild teh readme" />
     <MESSAGE value="clean the readme" />
     <MESSAGE value="update readme to explain issue when F5 Refresh with more than 20 results" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme to explain issue when F5 Refresh with more than 20 results" />
+    <MESSAGE value="Add node about the GMT stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add node about the GMT stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1445,14 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1463,10 +1456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekResults.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1474,15 +1467,23 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
+          <first_editor relative-caret-position="234">
+            <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
             <folding>
-              <marker date="1511116645955" expanded="true" signature="1791:6261" ph="{...}" />
-              <marker date="1511116645955" expanded="true" signature="4705:4818" ph="{...}" />
-              <marker date="1511116645955" expanded="true" signature="4902:4984" ph="{...}" />
+              <marker date="1511117067577" expanded="true" signature="1791:6106" ph="{...}" />
+              <marker date="1511117067577" expanded="true" signature="4705:4818" ph="{...}" />
+              <marker date="1511117067577" expanded="true" signature="4902:4984" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

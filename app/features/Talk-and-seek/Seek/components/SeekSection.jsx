@@ -17,7 +17,7 @@ const ResultsSection = ({results, update, message, isRequesting, maxResults, onC
     <SeekSettingsMenu maxResults={maxResults} onChange={onChange} />
     {update &&
     <div className={styles.label}>
-              Last updated { new Date(Date.now()).getSeconds() - new Date(update).getSeconds()} seconds ago.
+              Last updated { parseInt(((new Date(Date.now()) - new Date(update)) / 1000), 10)} seconds ago.
     {' '}
     </div>}
     { message && <div className={styles.label}> {message} </div> }
