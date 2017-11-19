@@ -75,14 +75,14 @@ The isomorphism can be good for it if linked to an URL like */seek/iceland
      constructor (props, context) {
        super(props, context)
    
-       this.props.actions.getAsynContent(this.props.match.params.id)    
+       this.props.actions.getAsynContent(this.props.match.params.key)    
    }
   ```
  Here the normal action  
  
    ```javascript
  componentDidUpdate (prevProps) {
-       this.props.actions.getContentIfNeeded(this.props.match.params.id)
+       this.props.actions.getContentIfNeeded(this.props.match.params.key)
      }
    ```
  - In this case, the server could fetch from wikipedia all the data related to iceland and inject it

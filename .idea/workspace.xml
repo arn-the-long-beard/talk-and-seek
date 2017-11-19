@@ -96,14 +96,14 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="61" column="67" lean-forward="false" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
+              <first_editor relative-caret-position="270">
+                <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
                 <folding>
-                  <marker date="1511112515926" expanded="true" signature="3489:3596" ph="{...}" />
-                  <marker date="1511112515926" expanded="true" signature="3489:3601" ph="{...}" />
-                  <marker date="1511112515926" expanded="true" signature="3685:3766" ph="{...}" />
-                  <marker date="1511112515926" expanded="true" signature="3686:3766" ph="{...}" />
-                  <marker date="1511112515926" expanded="true" signature="3773:5925" ph="{...}" />
+                  <marker date="1511112831615" expanded="true" signature="3489:3597" ph="{...}" />
+                  <marker date="1511112831615" expanded="true" signature="3489:3602" ph="{...}" />
+                  <marker date="1511112831615" expanded="true" signature="3686:3768" ph="{...}" />
+                  <marker date="1511112831615" expanded="true" signature="3687:3768" ph="{...}" />
+                  <marker date="1511112831615" expanded="true" signature="3775:5927" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -569,14 +569,7 @@
       <workItem from="1511040723818" duration="108000" />
       <workItem from="1511040995509" duration="236000" />
       <workItem from="1511047550832" duration="6000" />
-      <workItem from="1511095650776" duration="14133000" />
-    </task>
-    <task id="LOCAL-00010" summary="clean stuff again">
-      <created>1510157145075</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1510157145075</updated>
+      <workItem from="1511095650776" duration="14459000" />
     </task>
     <task id="LOCAL-00011" summary="fix yaml">
       <created>1510159453975</created>
@@ -914,11 +907,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511112373822</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="correct the readme">
+      <created>1511112531197</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1511112531197</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185367000" />
+    <option name="totallyTimeSpent" value="185693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +972,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add the production build, but it is bugged=&gt; to fix tomorrow" />
     <MESSAGE value="Update Readme for production" />
     <MESSAGE value="fix error in the package.json" />
     <MESSAGE value="trying to solve the production, testing autobind instead of full es6" />
@@ -997,7 +996,8 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="Add redux persistency + isormorphism for Seek.jsx + Async action" />
     <MESSAGE value="Add information about isomorphism and SEO and example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add information about isomorphism and SEO and example" />
+    <MESSAGE value="correct the readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct the readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1476,14 +1476,14 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="61" column="67" lean-forward="false" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
+          <first_editor relative-caret-position="270">
+            <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
             <folding>
-              <marker date="1511112515926" expanded="true" signature="3489:3596" ph="{...}" />
-              <marker date="1511112515926" expanded="true" signature="3489:3601" ph="{...}" />
-              <marker date="1511112515926" expanded="true" signature="3685:3766" ph="{...}" />
-              <marker date="1511112515926" expanded="true" signature="3686:3766" ph="{...}" />
-              <marker date="1511112515926" expanded="true" signature="3773:5925" ph="{...}" />
+              <marker date="1511112831615" expanded="true" signature="3489:3597" ph="{...}" />
+              <marker date="1511112831615" expanded="true" signature="3489:3602" ph="{...}" />
+              <marker date="1511112831615" expanded="true" signature="3686:3768" ph="{...}" />
+              <marker date="1511112831615" expanded="true" signature="3687:3768" ph="{...}" />
+              <marker date="1511112831615" expanded="true" signature="3775:5927" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
