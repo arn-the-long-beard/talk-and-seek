@@ -11,9 +11,7 @@
 Speak to the App and find information  :microphone: [Here](https://mysterious-atoll-69963.herokuapp.com/talk)
 
  
-The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) 
-You will get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
-Heroku does not like when browser does http request to external server ( Which is comprehensible for security reasons )
+
 
 ## Stability
 
@@ -27,7 +25,57 @@ Talk to Speech API ------ Works only on Chrome
 1.0.0
 
 
-### Redux persistency ###
+- The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) , just click on the small shield on the url bar
+- You will get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
+- Heroku does not like when browser does http request to external server ( Which is comprehensible for security reasons )
+
+### How to use ###
+
+**Download**
+
+    git clone git clone https://github.com/arn-the-long-beard/talk-and-seek.git
+
+**Go to the directory**
+   
+    cd talk-and-seek
+    
+**Install Npm Packages**
+    
+    npm install 
+    
+**Start the dev server**
+  
+    npm start
+    
+**For running the production server :**
+  
+      npm run start_prod  
+  
+    
+##### For the production ( ie for the upload on an hosting server)
+
+For building platform for production :
+    
+    npm build
+
+For running the production server :
+
+    npm start_prod
+    
+    
+##### Comments #####
+ 
+ It is working on http because of the wikiJs. 
+ 
+ Usually I run everything on https by using http2/spdy.
+ 
+ You can change development.js and the page.js inside wikisj to have full https
+ 
+ The redux store has information about the server in case of test on local network 
+ 
+ There is also a promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
+    
+### Redux persistency and Isomorphism ###
 
 
 - Here I use [react-cookie](https://github.com/bukinoshita/react-cookies) for sending the state of the wikipedia search to the server
@@ -89,76 +137,7 @@ The isomorphism can be good for it if linked to an URL like */seek/iceland
    ```
  - In this case, the server could fetch from wikipedia all the data related to iceland and inject it
  - In this case, google can crawl on the URL and read/reference the data
-
-### How to use ###
-
-Download
-
-    git clone git clone https://github.com/arn-the-long-beard/talk-and-seek.git
-
-Go to the directory
-   
-    cd talk-and-seek
-    
-Install Npm Packages
-    
-    npm install 
-    
-Start the server
-  
-    npm start
-    
-* Comments  
-
-It is working on http because of the wikiJs. 
-
-Usually I run everything on https by using http2/spdy.
-
-You can change development.js and the page.js inside wikisj to have full https
-
-The redux store has information about the server in case of test on local network 
-
-There is also a promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
-
-
-* Configuration
-
->1 Dev config :
-
-    npm start
-or
-    
-    npm run start_dev
-
-
->2 Prod config :
-
-For building for production :
-    
-    npm run build
-
-For running the production server :
-
-    npm run start_prod
-    
-    
-##### For the production ( ie for the upload on an hosting server)
-* Dependencies
-* Database configuration
-* How to run tests
-( not set yet)
-    npm test
-* Deployment instructions
-
-
-For building platform for production :
-    
-    npm build
-
-For running the production server :
-
-    npm start_prod
-
+ 
 ### Contribution guidelines ###
 
 * Writing tests
