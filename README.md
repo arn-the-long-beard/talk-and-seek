@@ -47,23 +47,16 @@ Talk to Speech API ------ Works only on Chrome
   
     npm start
     
-**For running the production server :**
+**For running the production server**
+
+    npm run start_prod  
   
-      npm run start_prod  
-  
-    
-##### For the production ( ie for the upload on an hosting server)
+**In case you need to build** 
 
-For building platform for production :
-    
-    npm build
-
-For running the production server :
-
-    npm start_prod
+    npm run build   
     
     
-##### Comments #####
+### Comments ####
  
  It is working on http because of the wikiJs. 
  
@@ -73,7 +66,7 @@ For running the production server :
  
  The redux store has information about the server in case of test on local network 
  
- There is also a promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO if we need
+ There is also a promisesCollecteur to handle Async redux actions for injecting data and render ready html for SEO 
     
 ### Redux persistency and Isomorphism ###
 
@@ -144,6 +137,7 @@ The isomorphism can be good for it if linked to an URL like */seek/iceland
 * Code review
 
 ### TODO ###
+
  => Need to implement error handler in case of using non compatible web browser, for now the page just crash :white_check_mark:
  
  => Need to clean the package.json ; there are many node_modules the platform does not need
