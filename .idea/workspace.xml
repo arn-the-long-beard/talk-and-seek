@@ -4,21 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/components/TalkForm.jsx" description="&#10;" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="update readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/stateSaver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/store/setPreloadStore.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/client.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/server.js.map" afterPath="" />
+    <list default="true" id="c54db6d7-ed28-41c5-b6c9-23df92012ed0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Server/reducer.js" afterPath="$PROJECT_DIR$/app/features/Server/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/Seek.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/Seek.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actions.js" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/reducer.js" afterPath="$PROJECT_DIR$/app/features/Talk-and-seek/Seek/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development.js" afterPath="$PROJECT_DIR$/development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.jsx" afterPath="$PROJECT_DIR$/server.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,9 +96,15 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="487">
-                <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-                <folding />
+              <first_editor relative-caret-position="105">
+                <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                <folding>
+                  <marker date="1511112295351" expanded="true" signature="3494:3601" ph="{...}" />
+                  <marker date="1511112295351" expanded="true" signature="3494:3606" ph="{...}" />
+                  <marker date="1511112295351" expanded="true" signature="3690:3771" ph="{...}" />
+                  <marker date="1511112295351" expanded="true" signature="3691:3771" ph="{...}" />
+                  <marker date="1511112295351" expanded="true" signature="3778:5930" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -575,14 +569,7 @@
       <workItem from="1511040723818" duration="108000" />
       <workItem from="1511040995509" duration="236000" />
       <workItem from="1511047550832" duration="6000" />
-      <workItem from="1511095650776" duration="12136000" />
-    </task>
-    <task id="LOCAL-00008" summary="correct the start2">
-      <created>1510155877525</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1510155877525</updated>
+      <workItem from="1511095650776" duration="13969000" />
     </task>
     <task id="LOCAL-00009" summary="clean stuff">
       <created>1510156533058</created>
@@ -920,11 +907,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511040754424</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add redux persistency + isormorphism for Seek.jsx + Async action">
+      <created>1511110584741</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1511110584741</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183370000" />
+    <option name="totallyTimeSpent" value="185203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,15 +937,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3355856" sideWeight="0.71344715" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33896396" sideWeight="0.71344715" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.3779661" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.37649062" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3355856" sideWeight="0.28655282" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33896396" sideWeight="0.28655282" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4436937" sideWeight="0.26947704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.6220339" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.62350935" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.48719317" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -978,7 +972,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update the badges" />
     <MESSAGE value="correct the Readme" />
     <MESSAGE value="add the production build, but it is bugged=&gt; to fix tomorrow" />
     <MESSAGE value="Update Readme for production" />
@@ -1003,7 +996,8 @@
     <MESSAGE value="++ better state transition in the talk form" />
     <MESSAGE value="improve display" />
     <MESSAGE value="update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
+    <MESSAGE value="Add redux persistency + isormorphism for Seek.jsx + Async action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add redux persistency + isormorphism for Seek.jsx + Async action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1482,9 +1476,15 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="487">
-            <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-            <folding />
+          <first_editor relative-caret-position="105">
+            <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <folding>
+              <marker date="1511112295351" expanded="true" signature="3494:3601" ph="{...}" />
+              <marker date="1511112295351" expanded="true" signature="3494:3606" ph="{...}" />
+              <marker date="1511112295351" expanded="true" signature="3690:3771" ph="{...}" />
+              <marker date="1511112295351" expanded="true" signature="3691:3771" ph="{...}" />
+              <marker date="1511112295351" expanded="true" signature="3778:5930" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

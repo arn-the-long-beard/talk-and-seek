@@ -31,26 +31,62 @@ Talk to Speech API ------ Works only on Chrome
 
 - Here I use [react-cookie](https://github.com/bukinoshita/react-cookies) for sending the state of the wikipedia search to the server
 
-- Then I had two possibility for the redux store :
+- Then I had two possibilities for the redux store :
 
     - Just refresh the future hydrated client.jsx with the state from the cookie
-        - The web browser ask wikipedia
+        - The web browser ask wikipedia and do the job
     
-    - Play isomorphism and Promise
-        - => I decided to make Async Promise and generate the page injected with the data  
+    - Play isomorphism and Promises
+        - => I decided to use it to make Async Promise and generate the page injected with the data  
             - Async Action
             - Async Action type
             - Use of the Promise collecteur
             - The server asks Wikipedia
-            - The server inject the data and the html
+            - The server injects the data and the html
             - fast delivering and SEO
-            
-- Every time somebody loasd the page talk-and-seek, they can find their last research
+         - => But get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
+         - => Need to fix wikijs to https to have it clean          
+           
+- Every time somebody loads the page talk-and-seek, they can find their last research
 
     - We can still improve it and show the last talked sentence
     - Manage better the rendering ?
     - For the same key, the wikipedia gives the same list but in different orders. I do not know why, might be because of the network and the async part
 
+I decided to use the isomorphism here just to show how it's working, but it does not make so much sense for the SEO, especially because I didn't linked it to the URL and React-router (so the Google Crawler will not find it I think)
+
+NB : There are many possibilities for solving the same problem. What you take depends of your taste and the goal/conditions for solving the need.
+
+Exemple : You want to reference your content better
+
+The isomorphism can be good for it if linked to an URL like */seek/seek=iceland
+ - In the root.jsx the component is called this way : 
+ 
+ ```javascript
+ 
+  <Route exact path='/seeky/:key' component={Seek} />
+  
+ ```
+ - Now just call some actions
+ 
+ Here the Async content inside the constructor
+ 
+  ```javascript
+     constructor (props, context) {
+       super(props, context)
+   
+       this.props.actions.getAsynContent(this.props.match.params.id)    
+   }
+  ```
+ Here the normal action  
+ 
+   ```javascript
+ componentDidUpdate (prevProps) {
+       this.props.actions.getContentIfNeeded(this.props.match.params.id)
+     }
+   ```
+ - In this case, the server could fetch from wikipedia all the data related to iceland and inject it
+ - In this case, google can crawl on the URL and read/reference the data
 
 ### How to use ###
 
