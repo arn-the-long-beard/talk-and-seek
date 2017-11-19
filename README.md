@@ -149,6 +149,8 @@ The isomorphism can be good for it if linked to an URL like */seek/iceland
  
  => Make a new repository for the isomorphism version and rebuild this one just with web browser rendering and redux store persistency
 
+ => Should also include the hydrate the GMT in the the cookie, because the server use a date.Now in USA and it does make negatives seconds when substract
+
 * Other guidelines
 
 

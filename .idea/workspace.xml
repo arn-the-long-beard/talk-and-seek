@@ -96,12 +96,12 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <first_editor relative-caret-position="324">
+                <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
                 <folding>
-                  <marker date="1511116397503" expanded="true" signature="1791:6106" ph="{...}" />
-                  <marker date="1511116397503" expanded="true" signature="4705:4818" ph="{...}" />
-                  <marker date="1511116397503" expanded="true" signature="4902:4984" ph="{...}" />
+                  <marker date="1511116645955" expanded="true" signature="1791:6261" ph="{...}" />
+                  <marker date="1511116645955" expanded="true" signature="4705:4818" ph="{...}" />
+                  <marker date="1511116645955" expanded="true" signature="4902:4984" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -567,14 +567,7 @@
       <workItem from="1511040723818" duration="108000" />
       <workItem from="1511040995509" duration="236000" />
       <workItem from="1511047550832" duration="6000" />
-      <workItem from="1511095650776" duration="17729000" />
-    </task>
-    <task id="LOCAL-00015" summary="Impprove the font end">
-      <created>1510655549859</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1510655549859</updated>
+      <workItem from="1511095650776" duration="17989000" />
     </task>
     <task id="LOCAL-00016" summary="make better the loader&#10;&#10;comment http2">
       <created>1510656784384</created>
@@ -912,11 +905,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511115295539</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="update readme to explain issue when F5 Refresh with more than 20 results">
+      <created>1511116425607</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1511116425607</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188963000" />
+    <option name="totallyTimeSpent" value="189223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="write again dev-dependencies and add the log in production for errors" />
     <MESSAGE value="React 16.1.0-beta =&gt; React 16.0.0" />
     <MESSAGE value="move all dependencies from dev_dependencies for heroku deployment&#10;&#10;Update readme for npm commands" />
     <MESSAGE value="add the Procfile to start the production server for Heroku" />
@@ -995,7 +994,8 @@
     <MESSAGE value="update the information on the readme" />
     <MESSAGE value="rebuild teh readme" />
     <MESSAGE value="clean the readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean the readme" />
+    <MESSAGE value="update readme to explain issue when F5 Refresh with more than 20 results" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme to explain issue when F5 Refresh with more than 20 results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,12 +1474,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <first_editor relative-caret-position="324">
+            <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
             <folding>
-              <marker date="1511116397503" expanded="true" signature="1791:6106" ph="{...}" />
-              <marker date="1511116397503" expanded="true" signature="4705:4818" ph="{...}" />
-              <marker date="1511116397503" expanded="true" signature="4902:4984" ph="{...}" />
+              <marker date="1511116645955" expanded="true" signature="1791:6261" ph="{...}" />
+              <marker date="1511116645955" expanded="true" signature="4705:4818" ph="{...}" />
+              <marker date="1511116645955" expanded="true" signature="4902:4984" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
