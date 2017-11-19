@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/server.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
-              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+              <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/server/store/promisesCollecteur.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="46" />
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -96,14 +96,12 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
                 <folding>
-                  <marker date="1511112831615" expanded="true" signature="3489:3597" ph="{...}" />
-                  <marker date="1511112831615" expanded="true" signature="3489:3602" ph="{...}" />
-                  <marker date="1511112831615" expanded="true" signature="3686:3768" ph="{...}" />
-                  <marker date="1511112831615" expanded="true" signature="3687:3768" ph="{...}" />
-                  <marker date="1511112831615" expanded="true" signature="3775:5927" ph="{...}" />
+                  <marker date="1511114598943" expanded="true" signature="3751:3864" ph="{...}" />
+                  <marker date="1511114598943" expanded="true" signature="3948:4030" ph="{...}" />
+                  <marker date="1511114598943" expanded="true" signature="4212:6189" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -115,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/lib/VoiceRecognition.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/development.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -569,14 +567,7 @@
       <workItem from="1511040723818" duration="108000" />
       <workItem from="1511040995509" duration="236000" />
       <workItem from="1511047550832" duration="6000" />
-      <workItem from="1511095650776" duration="14459000" />
-    </task>
-    <task id="LOCAL-00011" summary="fix yaml">
-      <created>1510159453975</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1510159453975</updated>
+      <workItem from="1511095650776" duration="15931000" />
     </task>
     <task id="LOCAL-00012" summary="fix more stuff">
       <created>1510222325508</created>
@@ -914,11 +905,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511112531197</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update the readme">
+      <created>1511112855636</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1511112855636</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185693000" />
+    <option name="totallyTimeSpent" value="187165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,15 +935,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33896396" sideWeight="0.71344715" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3412162" sideWeight="0.71344715" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.37649062" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.37777779" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33896396" sideWeight="0.28655282" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3412162" sideWeight="0.28655282" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4436937" sideWeight="0.26947704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.62350935" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31216648" sideWeight="0.62222224" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.48719317" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -972,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Readme for production" />
     <MESSAGE value="fix error in the package.json" />
     <MESSAGE value="trying to solve the production, testing autobind instead of full es6" />
     <MESSAGE value="trying to solve the production, ui-material issue" />
@@ -997,7 +994,8 @@
     <MESSAGE value="Add redux persistency + isormorphism for Seek.jsx + Async action" />
     <MESSAGE value="Add information about isomorphism and SEO and example" />
     <MESSAGE value="correct the readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct the readme" />
+    <MESSAGE value="update the readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1400,7 +1398,7 @@
     <entry file="file://$PROJECT_DIR$/server.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1410,7 +1408,7 @@
     <entry file="file://$PROJECT_DIR$/development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1418,7 +1416,7 @@
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Talk/lib/VoiceRecognition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1426,7 +1424,7 @@
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/actionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1434,7 +1432,7 @@
     <entry file="file://$PROJECT_DIR$/server/store/promisesCollecteur.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="46" />
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1468,7 +1466,7 @@
     <entry file="file://$PROJECT_DIR$/app/features/Talk-and-seek/Seek/components/SeekSection.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1476,14 +1474,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
             <folding>
-              <marker date="1511112831615" expanded="true" signature="3489:3597" ph="{...}" />
-              <marker date="1511112831615" expanded="true" signature="3489:3602" ph="{...}" />
-              <marker date="1511112831615" expanded="true" signature="3686:3768" ph="{...}" />
-              <marker date="1511112831615" expanded="true" signature="3687:3768" ph="{...}" />
-              <marker date="1511112831615" expanded="true" signature="3775:5927" ph="{...}" />
+              <marker date="1511114598943" expanded="true" signature="3751:3864" ph="{...}" />
+              <marker date="1511114598943" expanded="true" signature="3948:4030" ph="{...}" />
+              <marker date="1511114598943" expanded="true" signature="4212:6189" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

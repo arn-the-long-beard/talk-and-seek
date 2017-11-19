@@ -12,13 +12,14 @@ Speak to the App and find information  :microphone: [Here](https://mysterious-at
 
  
 The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) 
- 
+You will get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
+Heroku does not like when browser does http request to external server ( Which is comprehensible for security reasons )
 
 ## Stability
 
 Stable: Expect patches, possible features additions.
 
-### Intropduction ###
+### Introduction ###
 
 Talk to Speech API ------ Works only on Chrome
 
@@ -35,6 +36,7 @@ Talk to Speech API ------ Works only on Chrome
 
     - Just refresh the future hydrated client.jsx with the state from the cookie
         - The web browser ask wikipedia and do the job
+        - => we can try later but Heroku will gives more warning message because of wikijs
     
     - Play isomorphism and Promises
         - => I decided to use it to make Async Promise and generate the page injected with the data  
@@ -44,7 +46,7 @@ Talk to Speech API ------ Works only on Chrome
             - The server asks Wikipedia
             - The server injects the data and the html
             - fast delivering and SEO
-         - => But get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
+         - => No warning about http request loaded server side
          - => Need to fix wikijs to https to have it clean          
            
 - Every time somebody loads the page talk-and-seek, they can find their last research
