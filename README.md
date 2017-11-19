@@ -59,7 +59,7 @@ NB : There are many possibilities for solving the same problem. What you take de
 
 Exemple : You want to reference your content better
 
-The isomorphism can be good for it if linked to an URL like */seek/seek=iceland
+The isomorphism can be good for it if linked to an URL like */seek/iceland
  - In the root.jsx the component is called this way : 
  
  ```javascript
