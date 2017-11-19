@@ -1,5 +1,6 @@
 import * as types from './actionTypes'
 import Api from './api'
+import StateSaver from '../../../store/stateSaver'
 export const askWikipediaFailed = (data) => {
   return {
     type: types.ASK_WIKIPEDIA_FAILED,
@@ -22,14 +23,37 @@ export const askWikipediaSuccess = (json) => {
     receivedAt: Date.now()
   }
 }
+export const NeedAskWikipediaAsyncRequest = promise => {
+  return {
+    type: types.ASK_WIKIPEDIA_AWAIT,
+    promise: promise
+  }
+}
 
+export const checkIfNeedAskWikipediaAsync = () => {
+  return function (dispatch, getState) {
+    if (shouldAsk(getState())) {
+      const {key, maxResults} = getState().talkAndSeek.seek
+      dispatch(NeedAskWikipediaAsyncRequest(Api.send(key, maxResults).then(response => {
+        if (response.success) {
+          dispatch(askWikipediaSuccess(response))
+        } else {
+          dispatch(askWikipediaFailed(response))
+        }
+      }).catch(error => {
+        dispatch(askWikipediaFailed(key, error))
+      })))
+    }
+  }
+}
 export const askWikipedia = () => {
   return (dispatch, getState) => {
-    const { key, maxResults} = getState().talkAndSeek.seek
+    const {key, maxResults} = getState().talkAndSeek.seek
     dispatch(askWikipediaRequest(key))
     return Api.send(key, maxResults).then(response => {
       if (response.success) {
         dispatch(askWikipediaSuccess(response))
+        StateSaver.saveState({key, maxResults})
       } else {
         dispatch(askWikipediaFailed(response))
       }

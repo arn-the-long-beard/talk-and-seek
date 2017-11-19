@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import * as actions from './actions'
 import SeekResultsList from './components/SeekSection'
+import StateSaver from '../../../store/stateSaver'
 
 class Seek extends Component {
   /**
@@ -12,6 +13,10 @@ class Seek extends Component {
   constructor (props, context) {
     super(props, context)
     this.onChange = this.onChange.bind(this)
+
+    if (this.props.seek.preloaded) {
+      this.props.actions.checkIfNeedAskWikipediaAsync()
+    }
   }
 
   componentWillReceiveProps (nextProps) {
@@ -20,13 +25,13 @@ class Seek extends Component {
 
   componentDidMount () {
     this.props.actions.checkIfNeedToAskWikipedia()
+    console.log(StateSaver.getState())
   }
 
   onChange (event) {
     event.preventDefault()
     this.props.actions.updateMaxResults(event.target.value)
   }
-
   /**
    * Render the component.
    */

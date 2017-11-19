@@ -3,7 +3,7 @@
 
 const http = require('http')
 const logger = require('morgan')
-const fs = require('fs')
+
 const express = require('express')
 const path = require('path')
 
@@ -19,8 +19,7 @@ var app = express()
 
 app.use(logger('dev'))
 app.use(require('cookie-parser')())
-// app.use(require('body-parser').urlencoded({ extended: true }))
-app.use(bodyParser.json()) // <--- Here
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 // additional routes

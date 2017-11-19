@@ -25,6 +25,33 @@ Talk to Speech API ------ Works only on Chrome
 * Version
 1.0.0
 
+
+### Redux persistency ###
+
+
+- Here I use [react-cookie](https://github.com/bukinoshita/react-cookies) for sending the state of the wikipedia search to the server
+
+- Then I had two possibility for the redux store :
+
+    - Just refresh the future hydrated client.jsx with the state from the cookie
+        - The web browser ask wikipedia
+    
+    - Play isomorphism and Promise
+        - => I decided to make Async Promise and generate the page injected with the data  
+            - Async Action
+            - Async Action type
+            - Use of the Promise collecteur
+            - The server asks Wikipedia
+            - The server inject the data and the html
+            - fast delivering and SEO
+            
+- Every time somebody loasd the page talk-and-seek, they can find their last research
+
+    - We can still improve it and show the last talked sentence
+    - Manage better the rendering ?
+    - For the same key, the wikipedia gives the same list but in different orders. I do not know why, might be because of the network and the async part
+
+
 ### How to use ###
 
 Download

@@ -13,6 +13,7 @@ import Root from './app/Root'
 
 import {promisesCollecteur} from './server/store/promisesCollecteur'
 import initReactFastclick from 'react-fastclick'
+import { checkCookie, preparePreload } from './server/store/setPreloadStore'
 initReactFastclick()
 export default function serverRenderer ({ clientStats, serverStats }) {
   return (req, res, next) => {
@@ -28,21 +29,45 @@ export default function serverRenderer ({ clientStats, serverStats }) {
 
     }
     const helmet = Helmet.renderStatic()
-    let store = configureStore()
-    let html = ReactDOMServer.renderToString(<MuiThemeProvider muiTheme={muiTheme}><Root store={store} Router={StaticRouter} location={req.url} context={context} /></MuiThemeProvider>)
-    console.log('Server rendering')
-      //  console.log(req.headers)
-    let finalState = store.getState()
-// TODO make it a middleware maybe
-    finalState.host = { server: req.headers.host }
-    promisesCollecteur(finalState, promises => {
-      if (promises.length === 0) {
-        console.log('there is no promise')
-        render(res, context, css, html, helmet, finalState)
+    let store = null
+    let preload = null
+    checkCookie(req, (err, cookie) => {
+      if (err) {
+        return res.status(409).json({
+          success: false,
+          message: 'error server rendering',
+          err: err
+        })
+      }
+      if (cookie) {
+        preload = preparePreload(cookie)
+        console.log('cookie load ')
+        console.log(cookie)
+      }
+      console.log('preload ')
+      console.log(preload)
+      if (preload) {
+        store = configureStore(preload)
       } else {
+        store = configureStore()
+      }
+      console.log('PreState ')
+      console.log(store.getState())
+    // let store = configureStore()
+      let html = ReactDOMServer.renderToString(<MuiThemeProvider muiTheme={muiTheme}><Root store={store} Router={StaticRouter} location={req.url} context={context} /></MuiThemeProvider>)
+      console.log('Server rendering')
+      //  console.log(req.headers)
+      let finalState = store.getState()
+// TODO make it a middleware maybe
+      finalState.host = { server: req.headers.host }
+      promisesCollecteur(finalState, promises => {
+        if (promises.length === 0) {
+          console.log('there is no promise')
+          render(res, context, css, html, helmet, finalState)
+        } else {
         // It was in case I try to reload the state by server sendering ( F5) but not time to implement for the assignement
-        console.log('there are few promises to solve')
-        Promise.all(promises)
+          console.log('there are few promises to solve')
+          Promise.all(promises)
               .then(() => {
                 html = ReactDOMServer.renderToString(<MuiThemeProvider muiTheme={muiTheme}><Root store={store} Router={StaticRouter} location={req.url} context={context} /></MuiThemeProvider>)
                 console.log('Server rendering Number 2')
@@ -54,7 +79,8 @@ export default function serverRenderer ({ clientStats, serverStats }) {
                 // handle errors here
                 throw new Error('Error server side' + e.message)
               })
-      }
+        }
+      })
     })
   }
 // TODO make it a middleware maybe
