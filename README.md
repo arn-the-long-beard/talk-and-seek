@@ -28,6 +28,7 @@ Talk to Speech API ------ Works only on Chrome
 - The web browser may tell you that the page tries to load unsafe script (the http Wikipedia Request) , just click on the small shield on the url bar
 - You will get  :warning: "Mixed Content: The page at 'https://mysterious-atoll-69963.herokuapp.com/talk' was loaded over HTTPS, but requested an insecure resource 'http://en.wikipedia.org/w/api.php?list=search&srsearch=Iceland&srlimit=40&format=json&action=query&redirects=&origin=*'. This content should also be served over HTTPS. '"
 - Heroku does not like when browser does http request to external server ( Which is comprehensible for security reasons )
+- The SSR for 40 results is slow and sometimes gives a timeout error
 
 ### How to use ###
 
@@ -145,6 +146,8 @@ The isomorphism can be good for it if linked to an URL like */seek/iceland
  => Need to modify the wikijs for requesting https
  
  => Change to Https after fixing wikijs
+ 
+ => Make a new repository for the isomorphism version and rebuild this one just with web browser rendering and redux store persistency
 
 * Other guidelines
 
