@@ -24,7 +24,7 @@ module.exports = [
       rules: [
         {
           test: /\.(js|jsx)$/,
-          exclude: /(node_modules\/)/,
+          exclude: /node_modules\/(?!react-voice-components)/,
           use: [
             {
               loader: 'babel-loader'
@@ -98,7 +98,7 @@ module.exports = [
       rules: [
         {
           test: /\.(js|jsx)$/,
-          exclude: /(node_modules\/)/,
+          exclude: /node_modules\/(?!react-voice-components)/,
           use: [
             {
               loader: 'babel-loader'
